@@ -1,0 +1,29 @@
+﻿@model GharchNews.Models.Report
+@using GharchNews.Utilities
+
+<div class="box">
+    <h6 class="position-relative ">
+        <span class="Special-Line-Color position-relative bg-body"> @ReportGroups.Special </span>
+        <a asp-page="./Group" asp-route-Group="@ReportGroups.Special" class="more-report bg-body"> <i class="fas fa-bars ms-3"></i> همه اخبار </a>
+    </h6>
+</div>
+<!-- End SpecialReports Line -->
+<!-- Card First -->
+<div class="col-12 col-md-4 mb-4 mt-2 body-plusfirst">
+    <div class="shadow rounded">
+        <div class="card overflow-hidden">
+            <div class="">
+                <a asp-page="./Report" asp-route-id="@Model.ReportId">
+                    <img src="~/Img/ReportImages/@Model.Image" class="card-img-top w-100 card-img-plusfirst" alt="...">
+                </a>
+            </div>
+            <div class="card-body bg-body-secondary overflow-hidden p-2 w-100 card-body-plusfirst">
+                <a asp-page="./Report" asp-route-id="@Model.ReportId" class="card-text-plusfirst">
+                    <p class="card-text">
+                        @Model.title
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

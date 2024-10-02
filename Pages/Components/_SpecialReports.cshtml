@@ -1,0 +1,31 @@
+﻿@model IEnumerable<GharchNews.Models.Report>
+@using GharchNews.Utilities
+
+
+
+
+
+<ul class="list-unstyled">
+    @foreach(var item in Model)
+    {
+        <li class="col-12 col-md-4 d-inline-flex ps-md-3 mb-2 body-plus">
+            <div class="card shadow w-100">
+                <div class="row g-0 ">
+                    <div class="col-12 col-md-4">
+                        <a asp-page="./Report" asp-route-id="@item.ReportId">
+                            <img src="~/Img/ReportImages/@item.Image" class="img-fluid rounded-start w-100" style="height: 112px;" title="@item.ImageTitle" alt="@item.ImageAlt">
+                        </a>
+                    </div>
+                    <div class="card-body col-12 col-md-8 bg-body-secondary overflow-hidden py-3 p-md-1 body-card-plus">
+                        <p>
+                            <a asp-page="./Report" asp-route-id="@item.ReportId" class="body-text-plus">
+                                @item.title
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    }
+
+</ul>

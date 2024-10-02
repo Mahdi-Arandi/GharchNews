@@ -1,0 +1,39 @@
+﻿@page
+@model GharchNews.Pages.Admin.Image.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<h5 class="alert alert-danger"> آیا از حذف این دسته خبری مطمئن هستید؟ </h5>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Image.ImageName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Image.ImageName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Image.CreateDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Image.CreateDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Image.Gallery)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Image.Gallery.GalleryName)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Image.ImageId" />
+        <input type="submit" value="حذف" class="btn btn-danger" />
+        <a asp-page="./Index" class="btn btn-default"> بازگشت به لیست </a>
+    </form>
+</div>

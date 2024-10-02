@@ -1,0 +1,28 @@
+﻿@model IEnumerable<GharchNews.Models.Report>
+@using GharchNews.Utilities
+
+
+<link href="~/assets/css/topreportsstyle.css" rel="stylesheet" />
+
+
+<div class="TopReports-row">
+    @foreach(var item in Model)
+    {
+        <div class="TopReports-col-1-of-3">
+            <div class="TopReports-card">
+                <div class="TopReports-card__side TopReports-card__side--front-1">
+                    <img src="~/Img/ReportImages/@item.Image" class="w-100 h-100" />
+                </div>
+                <div class="TopReports-card__side TopReports-card__side--back TopReports-card__side--back-1">
+                    <div class="TopReports-card__side__back-1__body">
+                        <p class="TopReports-card__price-only">
+                            @item.title
+                        </p>
+                        <a class="TopReports-card__side__back-1__btn btn btn-secondary"> مشاهده خبر </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>

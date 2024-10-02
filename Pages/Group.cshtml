@@ -1,0 +1,62 @@
+﻿@page
+@model GharchNews.Pages.GroupModel
+@using GharchNews.Utilities
+@{
+}
+
+
+<!-- Start Col-9 -->
+<div class="col-12 col-lg-9 mb-5">
+    <div class=" bg-light-subtle border-style rounded p-3">
+        <h5> اخبار دسته @ViewBag.GroupName </h5>
+        <ul class=" d-none d-sm-flex row mb-3 list-unstyled">
+            @foreach (var item in Model.Reports)
+            {
+                <li class="sport-card col-xl-3 col-lg-4 col-sm-6 my-sm-2">
+                    <div class=" card shadow">
+                        <a asp-page="./Report" asp-route-id="@item.ReportId">
+                            @if (item.ReportGroup.GroupName == ReportGroups.MultiMedia)
+                            {
+                                <video src="~/Img/ReportImages/@item.Image" preload="metadata" class="card-img-top" style="max-width: 100%; height: 150px ; max-height: 150px;" title="@item.ImageTitle" alt="@item.ImageAlt"></video>
+                            }
+                            else
+                            {
+                                <img src="~/Img/ReportImages/@item.Image" class="card-img-top" style="max-width: 100%; height: 150px ; max-height: 150px;" title="@item.ImageTitle" alt="@item.ImageAlt">
+                            }
+                        </a>
+                        <div class="card-body bg-body-secondary p-2" style="max-width: 100%; height:110px; max-height: 110px; overflow:hidden; border-top: 2px solid red;">
+                            <a asp-page="./Report" asp-route-id="@item.ReportId" class="text-decoration-none">
+                                <p class="m-0"> @item.title </p>
+                                <div class="position-absolute" style="top: 90%; width: 95%;">
+                                    <p class="d-inline-block bg-body-secondary px-1 m-0" style="color: #b9b9bb; font-size: .7rem; width: 100%;">   <i class="fas fa-clock" style="color: #b9b9bb; font-size: .7rem;"></i> <small class="text-body-secondary"> @item.CreateDate.ToShamsi() </small> </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <!-- Pagination -->
+    @if (ViewBag.itemCount > ViewBag.take)
+    {
+        <div class="row">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item @((ViewBag.pageId==1)? "disabled" : "")" style="padding: 20px 0;"><a asp-route-group="@ViewBag.GroupName" asp-route-pageid="1" class="page-link" style="font-size: .7rem;">صفحه اول</a></li>
+                    <li class="page-item @((ViewBag.pageId==1)? "disabled" : "")" style="padding: 20px 0;"><a asp-route-group="@ViewBag.GroupName" asp-route-pageid="@ViewBag.previousPage" class="page-link" style="font-size: .7rem;"> قبلی </a></li>
+                    @for (int i = 1; i <= ViewBag.pageCount; i++)
+                    {
+                        <li class="@((ViewBag.pageId == i)? "active" : "")" style="padding: 20px 0;"><a asp-route-group="@ViewBag.GroupName" asp-route-pageid="@i" class="page-link" style="font-size: .7rem;"> @i </a></li>
+                    }
+                    <li class="page-item @((ViewBag.pageId==ViewBag.pageCount)? "disabled" : "")" style="padding: 20px 0;"><a asp-route-group="@ViewBag.GroupName" asp-route-pageid="@ViewBag.nextPage" class="page-link" style="font-size: .7rem;">بعدی</a></li>
+                    <li class="page-item @((ViewBag.pageId==ViewBag.pageCount)? "disabled" : "")" style="padding: 20px 0;"><a asp-route-group="@ViewBag.GroupName" asp-route-pageid="@ViewBag.pageCount" class="page-link" style="font-size: .7rem;">صفحه آخر</a></li>
+                </ul>
+            </nav>
+        </div>
+    }
+    <!-- End Pagination -->
+
+</div>
+<!--End Col-9 -->

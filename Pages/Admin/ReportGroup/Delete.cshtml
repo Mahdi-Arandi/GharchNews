@@ -1,0 +1,35 @@
+﻿@page
+@model GharchNews.Pages.Admin.ReportGroup.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+
+<h5 class="alert alert-danger"> آیا از حذف این دسته خبری مطمئن هستید؟ </h5>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReportGroup.GroupName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReportGroup.GroupName)
+        </dd>
+        <hr />
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReportGroup.GroupImage)
+        </dt>
+        <dd class="col-sm-10">
+            <img src="/Img/ReportGroupImages/@Model.ReportGroup.GroupImage" style="max-width:320px" class="img-thumbnail" /> <br />
+            @Html.DisplayFor(model => model.ReportGroup.GroupImage)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="ReportGroup.GroupId" />
+        <input type="submit" value="حذف" class="btn btn-danger" />
+        <a asp-page="./Index" class="btn btn-default"> بازگشت به لیست </a>
+    </form>
+</div>

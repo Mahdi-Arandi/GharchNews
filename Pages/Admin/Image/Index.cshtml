@@ -1,0 +1,74 @@
+﻿@page
+@model GharchNews.Pages.Admin.Image.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<hr />
+<p>
+    <a asp-page="Create" class="btn btn-success"> افزودن عکس </a>
+</p>
+<hr />
+
+@if (ViewBag.CurrentGallery != null)
+{
+    <a asp-page="../Gallery/Index" class="btn btn-primary"> بازگشت به گالری ها <i class="fa fa-list" style="font-size:14px; color:black"></i> </a>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Images[0].ImageName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Images[0].CreateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Images[0].Gallery)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Images)
+        {
+            <tr>
+                <td>
+                    @if (ViewBag.CurrentGallery == null)
+                    {
+                        @foreach (var gallery in ViewBag.Galleries)
+                        {
+                            @if (item.Gallery.GalleryName == gallery)
+                            {
+                                <img src="/Img/GalleryImages/@gallery/@Html.DisplayFor(modelItem => item.ImageName)" style="max-width:60px" class="img-thumbnail" />
+                            }
+                        }
+                    }
+                    else
+                    {
+                        <img src="/Img/GalleryImages/@ViewBag.CurrentGallery/@Html.DisplayFor(modelItem => item.ImageName)" style="max-width:60px" class="img-thumbnail" />
+                    }
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreateDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gallery.GalleryName)
+                </td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@item.ImageId"><i class="fa fa-edit" style="color:darkorange;font-size:20px"></i></a>
+                    <a asp-route-id="@item.ImageId" asp-page-handler="Delete" asp-route-ReturnUrl="@ViewBag.CurrentGallery"><i class="fa fa-trash" style="color:red;font-size:20px"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (ViewBag.CurrentGallery != null)
+{
+    <a asp-page="../Image/Index" class="btn btn-warning"> نمایش تمام عکس ها </a>
+}

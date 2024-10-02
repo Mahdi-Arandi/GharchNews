@@ -1,0 +1,41 @@
+﻿@page
+@model GharchNews.Pages.Admin.Image.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Image.ImageId" />
+            <div class="form-group">
+                <label asp-for="Image.ImageName" class="control-label"></label>
+                <input asp-for="Image.ImageName" class="form-control" />
+                <span asp-validation-for="Image.ImageName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image.CreateDate" class="control-label"></label>
+                <input asp-for="Image.CreateDate" class="form-control" />
+                <span asp-validation-for="Image.CreateDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image.GalleryId" class="control-label"></label>
+                <select asp-for="Image.GalleryId" class="form-control" asp-items="ViewBag.GalleryId"></select>
+                <span asp-validation-for="Image.GalleryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="ویرایش" class="btn btn-warning" />
+                <a asp-page="./Index" class="btn btn-default"> بازگشت به لیست </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

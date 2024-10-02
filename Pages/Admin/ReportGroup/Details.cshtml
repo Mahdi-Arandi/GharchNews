@@ -1,0 +1,31 @@
+﻿@page
+@model GharchNews.Pages.Admin.ReportGroup.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReportGroup.GroupName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReportGroup.GroupName)
+        </dd>
+        <hr />
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReportGroup.GroupImage)
+        </dt>
+        <dd class="col-sm-10">
+            <img src="/Img/ReportGroupImages/@Model.ReportGroup.GroupImage" style="max-width:320px" class="img-thumbnail" /> <br />
+            @Html.DisplayFor(model => model.ReportGroup.GroupImage)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.ReportGroup.GroupId" class="btn btn-warning">ویرایش</a>
+    <a asp-page="./Index" class="btn btn-default">بازگشت به لیست</a>
+</div>

@@ -1,0 +1,1581 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GharchNews.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GharchNews.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Calendar\\Mh1PersianDatePicker.css",
+      "PackagePath": "staticwebassets\\Assets\\Calendar\\Mh1PersianDatePicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Calendar\\Mh1PersianDatePicker.js",
+      "PackagePath": "staticwebassets\\Assets\\Calendar\\Mh1PersianDatePicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Calendar\\PersianDate\\jquery.Bootstrap-PersianDateTimePicker.js",
+      "PackagePath": "staticwebassets\\Assets\\Calendar\\PersianDate\\jquery.Bootstrap-PersianDateTimePicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Calendar\\PersianDate\\persian-datepicker.css",
+      "PackagePath": "staticwebassets\\Assets\\Calendar\\PersianDate\\persian-datepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\ContactUs\\ContactUs-img1.png",
+      "PackagePath": "staticwebassets\\Assets\\ContactUs\\ContactUs-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\ContactUs\\ContactUs-jquery-3.1.1.min.js",
+      "PackagePath": "staticwebassets\\Assets\\ContactUs\\ContactUs-jquery-3.1.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\ContactUs\\ContactUs-scripts.js",
+      "PackagePath": "staticwebassets\\Assets\\ContactUs\\ContactUs-scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\ContactUs\\ContactUs-style.css",
+      "PackagePath": "staticwebassets\\Assets\\ContactUs\\ContactUs-style.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\ContactUs\\bootstrap4-rtl.min.css",
+      "PackagePath": "staticwebassets\\Assets\\ContactUs\\bootstrap4-rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\ContactUs\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Assets\\ContactUs\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Css\\Honeycombstyle.css",
+      "PackagePath": "staticwebassets\\Assets\\Css\\Honeycombstyle.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Css\\NavTabStyle.css",
+      "PackagePath": "staticwebassets\\Assets\\Css\\NavTabStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Css\\TopReportsStyle.css",
+      "PackagePath": "staticwebassets\\Assets\\Css\\TopReportsStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Css\\am-menu.css",
+      "PackagePath": "staticwebassets\\Assets\\Css\\am-menu.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Css\\demo-style.css",
+      "PackagePath": "staticwebassets\\Assets\\Css\\demo-style.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Assets\\Css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\FlexSlider\\flexslider.css",
+      "PackagePath": "staticwebassets\\Assets\\FlexSlider\\flexslider.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\FlexSlider\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\Assets\\FlexSlider\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\FlexSlider\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\Assets\\FlexSlider\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\FlexSlider\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\Assets\\FlexSlider\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\FlexSlider\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\Assets\\FlexSlider\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\FlexSlider\\jquery.flexslider.js",
+      "PackagePath": "staticwebassets\\Assets\\FlexSlider\\jquery.flexslider.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\FlexSlider\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Assets\\FlexSlider\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\AdsImages\\249c98ff-13f1-42ac-828a-23dc2d9e698e.gif",
+      "PackagePath": "staticwebassets\\Assets\\Img\\AdsImages\\249c98ff-13f1-42ac-828a-23dc2d9e698e.gif"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\AdsImages\\2657e694-1364-41b8-8d75-5a302e43b03e.gif",
+      "PackagePath": "staticwebassets\\Assets\\Img\\AdsImages\\2657e694-1364-41b8-8d75-5a302e43b03e.gif"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\AdsImages\\7d35ea74-ef43-4989-8de7-8503663b0999.gif",
+      "PackagePath": "staticwebassets\\Assets\\Img\\AdsImages\\7d35ea74-ef43-4989-8de7-8503663b0999.gif"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\AdsImages\\ab0df50b-6240-4e1d-96e3-1666e2db889d.gif",
+      "PackagePath": "staticwebassets\\Assets\\Img\\AdsImages\\ab0df50b-6240-4e1d-96e3-1666e2db889d.gif"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\AdsImages\\e78606fd-718e-4f72-a767-2040c026a3d5.gif",
+      "PackagePath": "staticwebassets\\Assets\\Img\\AdsImages\\e78606fd-718e-4f72-a767-2040c026a3d5.gif"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Icons\\Archive.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Icons\\Archive.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Icons\\CommaForComment.svg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Icons\\CommaForComment.svg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Icons\\ContactUs.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Icons\\ContactUs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Icons\\Folder.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Icons\\Folder.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Icons\\QuickAccess.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Icons\\QuickAccess.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Icons\\TopNews.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Icons\\TopNews.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Icons\\hot.svg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Icons\\hot.svg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Icons\\hot1.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Icons\\hot1.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Links\\Instagram.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Links\\Instagram.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Links\\Instagram_11zon.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Links\\Instagram_11zon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Links\\Telegram.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Links\\Telegram.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Links\\Telegram_2_11zon.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Links\\Telegram_2_11zon.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Links\\Twitter.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Links\\Twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Links\\Twitter_3_11zon.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Links\\Twitter_3_11zon.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Links\\WhatsApp.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Links\\WhatsApp.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Links\\WhatsApp_4_11zon.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Links\\WhatsApp_4_11zon.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Logo\\AbanNewsLogo.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Logo\\AbanNewsLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Logo\\GharchNews.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Logo\\GharchNews.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Logo\\GharchNewsLogo copy.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Logo\\GharchNewsLogo copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\Logo\\GharchNewsLogo white.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\Logo\\GharchNewsLogo white.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\04fbf75c-b12c-4d81-93ac-8d8a60b8cd6f.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\04fbf75c-b12c-4d81-93ac-8d8a60b8cd6f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\14cfc281-9ceb-47b3-a151-489eae03033a.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\14cfc281-9ceb-47b3-a151-489eae03033a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\1981c479-b702-440f-b96e-7c095abacd55.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\1981c479-b702-440f-b96e-7c095abacd55.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\224e75f1-1c11-4b4d-8e41-46e466f4e2ab.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\224e75f1-1c11-4b4d-8e41-46e466f4e2ab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\2523c28b-e333-4189-b690-da64b1e6294a.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\2523c28b-e333-4189-b690-da64b1e6294a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\26985c87-8092-4bec-b49d-a19657eac5c2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\26985c87-8092-4bec-b49d-a19657eac5c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\42a6ad50-e09e-41df-9019-c342c4e9da89.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\42a6ad50-e09e-41df-9019-c342c4e9da89.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\4c0cb780-d8d8-4172-851b-7551b626e859.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\4c0cb780-d8d8-4172-851b-7551b626e859.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\4d06b33a-6ce9-4bc1-b951-1613eb2e9153.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\4d06b33a-6ce9-4bc1-b951-1613eb2e9153.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\646b58a9-5e58-4eb8-85ac-ed36efb8e87a.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\646b58a9-5e58-4eb8-85ac-ed36efb8e87a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\67d0bed0-982a-43e1-8e8a-45a1ed0add71.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\67d0bed0-982a-43e1-8e8a-45a1ed0add71.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\6b078a2f-a732-459c-9693-458849212d9f.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\6b078a2f-a732-459c-9693-458849212d9f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\a4278bf8-1a11-406d-889a-8ef035139447.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\a4278bf8-1a11-406d-889a-8ef035139447.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\b98ee134-91dc-434b-aa31-2378403ddbd2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\b98ee134-91dc-434b-aa31-2378403ddbd2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\de45b833-e10a-4e0f-a44d-0cea7f2d751d.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\de45b833-e10a-4e0f-a44d-0cea7f2d751d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\eeebb0d3-aee6-4c1b-acb0-583251c6658c.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\eeebb0d3-aee6-4c1b-acb0-583251c6658c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportGroupImages\\f5e8946d-261c-463c-a198-a42f56319574.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportGroupImages\\f5e8946d-261c-463c-a198-a42f56319574.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\00f3b6c7-f00b-44eb-ac0a-ffb372d7bfd9.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\00f3b6c7-f00b-44eb-ac0a-ffb372d7bfd9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\05ee6adc-21af-44f9-9a74-1f71407d36cf.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\05ee6adc-21af-44f9-9a74-1f71407d36cf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\182bdc16-e258-4d06-9e2b-fb8d2ccabe76.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\182bdc16-e258-4d06-9e2b-fb8d2ccabe76.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\432bbaff-160d-4f9d-86dd-f248bb780595.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\432bbaff-160d-4f9d-86dd-f248bb780595.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\44753b0a-b268-458a-b7b9-f3587b24973b.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\44753b0a-b268-458a-b7b9-f3587b24973b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\48a057bb-0509-47ce-bd01-cd8e1fd2ac30.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\48a057bb-0509-47ce-bd01-cd8e1fd2ac30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\53a53201-3fe5-4365-9be6-3a72fbebbabb.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\53a53201-3fe5-4365-9be6-3a72fbebbabb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\56a51b62-c432-45fb-8f4f-6834dcdc694d.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\56a51b62-c432-45fb-8f4f-6834dcdc694d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\6ebf87f6-01ff-4cf5-82af-3eaec4245c94.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\6ebf87f6-01ff-4cf5-82af-3eaec4245c94.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\7fecf5b4-6482-4ad0-afdc-7390d669c099.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\7fecf5b4-6482-4ad0-afdc-7390d669c099.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\8a6e9502-1c34-4127-b5c4-6895bcdb864b.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\8a6e9502-1c34-4127-b5c4-6895bcdb864b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\8b83c6ce-9138-4c08-ad98-5165d8978798.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\8b83c6ce-9138-4c08-ad98-5165d8978798.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\90cab4eb-c641-4ab9-bd3e-0d04a6ccefa3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\90cab4eb-c641-4ab9-bd3e-0d04a6ccefa3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\99486082-27fd-4604-acce-ab7b801c29b6.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\99486082-27fd-4604-acce-ab7b801c29b6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\99cc52bb-fc5e-479d-9ea7-97a2f3aea5e2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\99cc52bb-fc5e-479d-9ea7-97a2f3aea5e2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\9a41f08f-b2d3-40e8-aebd-d1799b2bd100.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\9a41f08f-b2d3-40e8-aebd-d1799b2bd100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\a0d628e0-51ae-401e-b311-7437185f603f.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\a0d628e0-51ae-401e-b311-7437185f603f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\a3fb7df4-f375-40df-b5af-64b2619f831f.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\a3fb7df4-f375-40df-b5af-64b2619f831f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\aba900a8-b20c-4208-a364-9c5e6c8ac848.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\aba900a8-b20c-4208-a364-9c5e6c8ac848.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\acd55981-6c23-4c03-a103-188fbb52b1d4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\acd55981-6c23-4c03-a103-188fbb52b1d4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\bb5179a2-f108-4fd2-8970-4fa0f75be148.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\bb5179a2-f108-4fd2-8970-4fa0f75be148.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\bd0d37fa-ab8d-4cae-a1da-abd922234b0f.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\bd0d37fa-ab8d-4cae-a1da-abd922234b0f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\c2392af3-c7ec-44c3-adc3-056be62ed564.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\c2392af3-c7ec-44c3-adc3-056be62ed564.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\c63292df-48f3-489f-ab04-3f3558a62802.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\c63292df-48f3-489f-ab04-3f3558a62802.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\d730f788-76d3-440a-8118-372f0562b346.png",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\d730f788-76d3-440a-8118-372f0562b346.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\d7bb8fea-c161-441a-a4cb-bbedd23ea2c4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\d7bb8fea-c161-441a-a4cb-bbedd23ea2c4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\e4fc8eaf-89ce-45cc-bf46-5ead54e0d812.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\e4fc8eaf-89ce-45cc-bf46-5ead54e0d812.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Img\\ReportImages\\ee5abd41-8ea7-4559-88f0-2ef16a141b2f.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Img\\ReportImages\\ee5abd41-8ea7-4559-88f0-2ef16a141b2f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Js\\New folder\\am-menu.js",
+      "PackagePath": "staticwebassets\\Assets\\Js\\New folder\\am-menu.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Js\\New folder\\ckeditor.html",
+      "PackagePath": "staticwebassets\\Assets\\Js\\New folder\\ckeditor.html"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Js\\New folder\\demo-only.js",
+      "PackagePath": "staticwebassets\\Assets\\Js\\New folder\\demo-only.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Js\\New folder\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Assets\\Js\\New folder\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Js\\New folder\\run_prettify.js",
+      "PackagePath": "staticwebassets\\Assets\\Js\\New folder\\run_prettify.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Js\\New folder\\scripts.js",
+      "PackagePath": "staticwebassets\\Assets\\Js\\New folder\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Js\\ReplaceDigits\\ToPersianDigits.js",
+      "PackagePath": "staticwebassets\\Assets\\Js\\ReplaceDigits\\ToPersianDigits.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Js\\am-menu.js",
+      "PackagePath": "staticwebassets\\Assets\\Js\\am-menu.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Js\\demo-only.js",
+      "PackagePath": "staticwebassets\\Assets\\Js\\demo-only.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Js\\jquery.js",
+      "PackagePath": "staticwebassets\\Assets\\Js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Assets\\Js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Js\\run_prettify.js",
+      "PackagePath": "staticwebassets\\Assets\\Js\\run_prettify.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Js\\scripts.js",
+      "PackagePath": "staticwebassets\\Assets\\Js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\css\\animate.css",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\css\\bootstrap4-rtl.min.css",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\css\\bootstrap4-rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\css\\style.css",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\fonts\\Vazir.eot",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\fonts\\Vazir.eot"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\fonts\\Vazir.ttf",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\fonts\\Vazir.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\fonts\\Vazir.woff",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\fonts\\Vazir.woff"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\fonts\\Vazir.woff2",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\fonts\\Vazir.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\img\\AbanNewsLogo.png",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\img\\AbanNewsLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\js\\jquery-3.1.1.min.js",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\js\\jquery-3.1.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\LoginForm\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\Assets\\LoginForm\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\Style\\style.css",
+      "PackagePath": "staticwebassets\\Assets\\Style\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\bootstrap-5.3.2-dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\ckeditor5-build-classic\\LICENSE.md",
+      "PackagePath": "staticwebassets\\Assets\\ckeditor5-build-classic\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\ckeditor5-build-classic\\README.md",
+      "PackagePath": "staticwebassets\\Assets\\ckeditor5-build-classic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\ckeditor5-build-classic\\ckeditor.d.ts",
+      "PackagePath": "staticwebassets\\Assets\\ckeditor5-build-classic\\ckeditor.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\ckeditor5-build-classic\\ckeditor.js",
+      "PackagePath": "staticwebassets\\Assets\\ckeditor5-build-classic\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\ckeditor5-build-classic\\ckeditor.js.map",
+      "PackagePath": "staticwebassets\\Assets\\ckeditor5-build-classic\\ckeditor.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\ckeditor5-build-classic\\sample\\css\\sample.css",
+      "PackagePath": "staticwebassets\\Assets\\ckeditor5-build-classic\\sample\\css\\sample.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\ckeditor5-build-classic\\translations\\fa.js",
+      "PackagePath": "staticwebassets\\Assets\\ckeditor5-build-classic\\translations\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fontawesome\\all.min.js",
+      "PackagePath": "staticwebassets\\Assets\\fontawesome\\all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\B_Yekan\\Yekan.ttf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\B_Yekan\\Yekan.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\IRANSans\\IRANSansWeb.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\IRANSans\\IRANSansWeb.woff"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\IRANSans\\IRANSansWeb_Bold.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\IRANSans\\IRANSansWeb_Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\IRANSans\\IRANSansWeb_Light.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\IRANSans\\IRANSansWeb_Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\IRANSans\\IRANSansWeb_Medium.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\IRANSans\\IRANSansWeb_Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\IRANSans\\IRANSansWeb_UltraLight.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\IRANSans\\IRANSansWeb_UltraLight.woff"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\Sans a4fran3.svg",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\Sans a4fran3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\Sansa4fran3.eot",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\Sansa4fran3.eot"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\Sansa4fran3.ttf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\Sansa4fran3.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\Sansa4fran3.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\Sansa4fran3.woff"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\fonts\\Weblogma_Yekan.eot",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fonts\\Weblogma_Yekan.eot"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\fonts\\Weblogma_Yekan.otf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fonts\\Weblogma_Yekan.otf"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\fonts\\Weblogma_Yekan.ttf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fonts\\Weblogma_Yekan.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\fonts\\Weblogma_Yekan.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fonts\\Weblogma_Yekan.woff"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\fonts\\weblogma_yekan.css",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fonts\\weblogma_yekan.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\yekan\\Yekan.eot",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\yekan\\Yekan.eot"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\yekan\\Yekan.svg",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\yekan\\Yekan.svg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\yekan\\Yekan.ttf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\yekan\\Yekan.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\yekan\\Yekan.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\yekan\\Yekan.woff"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\yekan\\Yekan.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\yekan\\Yekan.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\yekan\\test.html",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\yekan\\test.html"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Assets\\fonts\\yekan\\yekan.css",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\yekan\\yekan.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\galleryImages\\طبیعت\\1d1cf9f0-32d2-49eb-9d8e-92f4f7b2c0f4.jpg",
+      "PackagePath": "staticwebassets\\Img\\galleryImages\\طبیعت\\1d1cf9f0-32d2-49eb-9d8e-92f4f7b2c0f4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\galleryImages\\طبیعت\\4bc126a1-9ea0-43ea-b2f3-d56bc88797a4.jpg",
+      "PackagePath": "staticwebassets\\Img\\galleryImages\\طبیعت\\4bc126a1-9ea0-43ea-b2f3-d56bc88797a4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\galleryImages\\طبیعت\\c60469ec-37ab-4854-8462-1e6da45f2188.jpg",
+      "PackagePath": "staticwebassets\\Img\\galleryImages\\طبیعت\\c60469ec-37ab-4854-8462-1e6da45f2188.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\galleryImages\\طبیعت\\d21d2825-e426-4c83-8042-bef13975f99b.jpg",
+      "PackagePath": "staticwebassets\\Img\\galleryImages\\طبیعت\\d21d2825-e426-4c83-8042-bef13975f99b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\galleryImages\\طبیعت\\f786596b-8e5b-4d42-9bcb-cee69563a640.jpg",
+      "PackagePath": "staticwebassets\\Img\\galleryImages\\طبیعت\\f786596b-8e5b-4d42-9bcb-cee69563a640.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\galleryImages\\ماشین\\9ad2ea87-0f16-4fda-9b68-011931cccf6f.jpg",
+      "PackagePath": "staticwebassets\\Img\\galleryImages\\ماشین\\9ad2ea87-0f16-4fda-9b68-011931cccf6f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\galleryImages\\ماشین\\c67fbd2e-85cc-4cb2-a943-c5b1044e8af9.jpg",
+      "PackagePath": "staticwebassets\\Img\\galleryImages\\ماشین\\c67fbd2e-85cc-4cb2-a943-c5b1044e8af9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\galleryImages\\ماشین\\f26f6868-2b9d-429c-88e4-161fa300bbc8.jpg",
+      "PackagePath": "staticwebassets\\Img\\galleryImages\\ماشین\\f26f6868-2b9d-429c-88e4-161fa300bbc8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\galleryImages\\مذهبی\\633b6c6b-97f6-4f9f-869f-504d9a849a9f.jpg",
+      "PackagePath": "staticwebassets\\Img\\galleryImages\\مذهبی\\633b6c6b-97f6-4f9f-869f-504d9a849a9f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\galleryImages\\مذهبی\\937564d0-d4c5-41a2-8d6e-012774b76f7f.jpg",
+      "PackagePath": "staticwebassets\\Img\\galleryImages\\مذهبی\\937564d0-d4c5-41a2-8d6e-012774b76f7f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\galleryImages\\مذهبی\\fc7f5d75-a931-41ff-b641-1c38846238c0.jpg",
+      "PackagePath": "staticwebassets\\Img\\galleryImages\\مذهبی\\fc7f5d75-a931-41ff-b641-1c38846238c0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportGroupImages\\004fa306-197d-4a09-b97f-404eb2ee5299.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportGroupImages\\004fa306-197d-4a09-b97f-404eb2ee5299.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportGroupImages\\0c43a2c5-654f-4969-9236-cb6c421bd5ab.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportGroupImages\\0c43a2c5-654f-4969-9236-cb6c421bd5ab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportGroupImages\\27d7f3e5-53cf-413c-83bc-02ac3d63acad.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportGroupImages\\27d7f3e5-53cf-413c-83bc-02ac3d63acad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportGroupImages\\30488dc7-cdb5-493e-954d-708179a08db0.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportGroupImages\\30488dc7-cdb5-493e-954d-708179a08db0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportGroupImages\\4ede6c74-862d-4a1e-83e3-281826bcc336.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportGroupImages\\4ede6c74-862d-4a1e-83e3-281826bcc336.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportGroupImages\\4fed7e93-5aa5-4533-9349-6c8abd9189f3.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportGroupImages\\4fed7e93-5aa5-4533-9349-6c8abd9189f3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportGroupImages\\52d5fd07-6091-4a3f-89f8-1c431caea0ed.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportGroupImages\\52d5fd07-6091-4a3f-89f8-1c431caea0ed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportGroupImages\\7dc4aea3-f08b-4838-979f-8f02df7c4bb7.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportGroupImages\\7dc4aea3-f08b-4838-979f-8f02df7c4bb7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportGroupImages\\a2722553-8993-4b33-9ee3-dc4eccf18c89.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportGroupImages\\a2722553-8993-4b33-9ee3-dc4eccf18c89.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportGroupImages\\beb39ab8-d685-4793-93de-a7256f1c61b8.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportGroupImages\\beb39ab8-d685-4793-93de-a7256f1c61b8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportGroupImages\\ee77a486-4f0a-49e0-b1e2-3599816d9bd3.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportGroupImages\\ee77a486-4f0a-49e0-b1e2-3599816d9bd3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\1091bad9-437e-4d87-b2a1-e169c5477648.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\1091bad9-437e-4d87-b2a1-e169c5477648.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\1cb045ef-509d-4ca5-abe0-0e1339d53132.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\1cb045ef-509d-4ca5-abe0-0e1339d53132.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\2128fc86-fb15-422a-9fc5-680b17e6e413.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\2128fc86-fb15-422a-9fc5-680b17e6e413.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\259143f0-37f7-4d26-9890-afbba6459790.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\259143f0-37f7-4d26-9890-afbba6459790.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\2fa4b3c0-0c45-4425-8f8a-17c7332dd6bf.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\2fa4b3c0-0c45-4425-8f8a-17c7332dd6bf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\382f08d0-4a65-4c05-8599-46f6d7bd8105.png",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\382f08d0-4a65-4c05-8599-46f6d7bd8105.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\4318e9a0-1cd9-4e72-a912-7943eb17c848.png",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\4318e9a0-1cd9-4e72-a912-7943eb17c848.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\54cb806e-c21b-4a0f-930a-bfc6b37f47a7.mp4",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\54cb806e-c21b-4a0f-930a-bfc6b37f47a7.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\605a428d-59c1-462a-b5d5-13353b47b89e.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\605a428d-59c1-462a-b5d5-13353b47b89e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\6467fc60-3293-41f5-a9cf-e6bab9b191b3.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\6467fc60-3293-41f5-a9cf-e6bab9b191b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\681b77f2-9aaf-4f68-bc5a-cd6418db304e.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\681b77f2-9aaf-4f68-bc5a-cd6418db304e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\6dd8cb41-7955-42e4-a7a6-49b24f6f31f2.mp4",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\6dd8cb41-7955-42e4-a7a6-49b24f6f31f2.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\75e8d996-a8c3-417b-a814-a261ba16729c.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\75e8d996-a8c3-417b-a814-a261ba16729c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\8fd1b6d3-2190-4c33-9e24-8a931eb09398.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\8fd1b6d3-2190-4c33-9e24-8a931eb09398.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\96ee933a-d67d-4f6c-ba71-c4707f8fa391.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\96ee933a-d67d-4f6c-ba71-c4707f8fa391.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\9e6868e3-2bed-4efd-85d3-e3bb9410db31.png",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\9e6868e3-2bed-4efd-85d3-e3bb9410db31.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\a419f5bf-6167-4d79-95e7-41ba08d436e4.mp4",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\a419f5bf-6167-4d79-95e7-41ba08d436e4.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\a437b719-7013-419c-b335-ac561eadeae1.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\a437b719-7013-419c-b335-ac561eadeae1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\acf69359-40fe-489d-b4c5-3cb31ba3dad0.jpeg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\acf69359-40fe-489d-b4c5-3cb31ba3dad0.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\adfd5eec-90d5-4c2e-a3c9-c2f765792f8b.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\adfd5eec-90d5-4c2e-a3c9-c2f765792f8b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\ba47caf1-d7a8-4fc4-85b2-3f988db07068.mp4",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\ba47caf1-d7a8-4fc4-85b2-3f988db07068.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\bb94e561-7772-4f59-94c6-e932abf93f76.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\bb94e561-7772-4f59-94c6-e932abf93f76.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\c47c6b8e-d15e-4109-a3b7-c319c527662d.mp4",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\c47c6b8e-d15e-4109-a3b7-c319c527662d.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\ca74b386-e8b6-4448-8dce-81609bca69d8.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\ca74b386-e8b6-4448-8dce-81609bca69d8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\db2cda85-180e-4e98-abb4-24d1fada0f61.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\db2cda85-180e-4e98-abb4-24d1fada0f61.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\ec46ac0e-b37e-4cef-8a9f-4ee00df35af7.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\ec46ac0e-b37e-4cef-8a9f-4ee00df35af7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\ef06a5cc-7432-47cd-bb30-855f0701fcfe.jpg",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\ef06a5cc-7432-47cd-bb30-855f0701fcfe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\f655795e-50f9-407f-8307-377f7c63e198.webp",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\f655795e-50f9-407f-8307-377f7c63e198.webp"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\fa1637ed-c95d-4d18-8fca-6f4baad271cd.png",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\fa1637ed-c95d-4d18-8fca-6f4baad271cd.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\Img\\reportImages\\fc625c0b-018e-4242-85c0-a4f5a05a14c5.webp",
+      "PackagePath": "staticwebassets\\Img\\reportImages\\fc625c0b-018e-4242-85c0-a4f5a05a14c5.webp"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\css\\AdminLTE.css",
+      "PackagePath": "staticwebassets\\dist\\css\\AdminLTE.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\css\\AdminLTE.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\AdminLTE.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\css\\adminlte.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\adminlte.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\css\\adminlte.min.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\adminlte.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\css\\rtl.css",
+      "PackagePath": "staticwebassets\\dist\\css\\rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\css\\skin-blue.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skin-blue.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\font-awesome\\font-awesome.css",
+      "PackagePath": "staticwebassets\\dist\\font-awesome\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\font-awesome\\font-awesome.css.map",
+      "PackagePath": "staticwebassets\\dist\\font-awesome\\font-awesome.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\font-awesome\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\dist\\font-awesome\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\dist\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\fonts\\Vazir-Bold-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\dist\\fonts\\Vazir-Bold-FD-WOL.eot"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\fonts\\Vazir-Bold-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\dist\\fonts\\Vazir-Bold-FD-WOL.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\fonts\\Vazir-Bold-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\dist\\fonts\\Vazir-Bold-FD-WOL.woff"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\fonts\\Vazir-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\dist\\fonts\\Vazir-FD-WOL.eot"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\fonts\\Vazir-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\dist\\fonts\\Vazir-FD-WOL.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\fonts\\Vazir-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\dist\\fonts\\Vazir-FD-WOL.woff"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\dist\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\dist\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\dist\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\dist\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\dist\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\img\\avatar04.png",
+      "PackagePath": "staticwebassets\\dist\\img\\avatar04.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\img\\avatar5.png",
+      "PackagePath": "staticwebassets\\dist\\img\\avatar5.png"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\dist\\js\\adminlte.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\dist\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\dist\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\dist\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Markazi.co\\Desktop\\GharchNews\\GharchNews\\GharchNews\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GharchNews.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GharchNews.props",
+      "PackagePath": "build\\GharchNews.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GharchNews.props",
+      "PackagePath": "buildMultiTargeting\\GharchNews.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GharchNews.props",
+      "PackagePath": "buildTransitive\\GharchNews.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

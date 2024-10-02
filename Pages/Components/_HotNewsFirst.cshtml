@@ -1,0 +1,32 @@
+﻿@model GharchNews.Models.Report
+@using GharchNews.Utilities
+
+
+<!-- Start Hot News Line -->
+<div class="box mb-3">
+    <h6 class="position-relative ">
+        <span class="HotNews-Line-Color position-relative bg-body-tertiary"> @ReportGroups.HotNews </span>
+        <a asp-page="./Group" asp-route-Group="@ReportGroups.HotNews" class="more-report bg-body-tertiary"> <i class="fas fa-bars ms-3"></i> همه اخبار </a>
+    </h6>
+</div>
+<!-- End Hot News Line -->
+<!-- Strat Hot News First -->
+<div class="col-lg-6 px-lg-2 col-sm-12 m-sm-0">
+
+    <div class="row HotNewsFirst">
+        <a asp-page="./Report" asp-route-id="@Model.ReportId">
+            @if (Model.ReportGroup.GroupName == ReportGroups.MultiMedia)
+            {
+                <video src="~/Img/ReportImages/@Model.Image" preload="metadata" class="my-2 hotnews-img-index" title="@Model.ImageTitle" alt="@Model.ImageAlt"></video>
+            }
+            else
+            {
+                <img src="~/Img/ReportImages/@Model.Image" class="my-2 hotnews-img-index"  title="@Model.ImageTitle" alt="@Model.ImageAlt">
+            }
+        </a>
+
+        <span class="pb-3 mx-2"><a asp-page="./Report" asp-route-id="@Model.ReportId"> @Model.title </a></span>
+    </div>
+
+</div>
+<!-- End Hot News First -->

@@ -1,0 +1,46 @@
+﻿@page
+@model GharchNews.Pages.Admin.Gallery.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<hr />
+<p>
+    <a asp-page="Create" class="btn btn-success"> افزودن گالری تصاویر </a>
+</p>
+<hr />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Gallery[0].GalleryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gallery[0].Description)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Gallery)
+        {
+            <tr>
+                <td>
+                    <a asp-page="../Image/Index" asp-route-GalleryName="@item.GalleryName" asp-page-handler="Gallery">
+                        @Html.DisplayFor(modelItem => item.GalleryName)
+                    </a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@item.GalleryId"><i class="fa fa-edit" style="color:darkorange;font-size:20px"></i></a>
+                    <a asp-page="Delete" asp-route-id="@item.GalleryId"><i class="fa fa-trash" style="color:red;font-size:20px"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

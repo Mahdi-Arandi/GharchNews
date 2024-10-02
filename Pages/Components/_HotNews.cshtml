@@ -1,0 +1,14 @@
+﻿@model IEnumerable<GharchNews.Models.Report>
+@using GharchNews.Utilities
+
+
+<!-- Strat Hot News -->
+<div class="col-lg-6 col-sm-12">
+    <ul class="HotNews ps-0">
+        @foreach (var item in Model)
+        {
+            <li class="border-bottom py-2"><a asp-page="./Report" asp-route-id="@item.ReportId" class="list-unstyled text-decoration-none"> @item.title  <i class="@((item.ReportGroup.GroupName==ReportGroups.MultiMedia)? "fa fa-film" : "")"></i> </a></li>
+        }
+    </ul>
+</div>
+<!-- End Hot News -->

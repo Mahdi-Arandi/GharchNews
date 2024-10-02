@@ -1,0 +1,82 @@
+﻿@page
+@model GharchNews.Pages.Admin.Report.IndexModel
+@using GharchNews.Utilities
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<hr />
+<p>
+    <a asp-page="Create" class="btn btn-success"> افزودن خبر </a>
+</p>
+<hr />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Report[0].Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Report[0].title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Report[0].CreateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Report[0].Author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Report[0].View)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Report[0].IsHotNews)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Report[0].ReportGroup)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Report) {
+            <tr>
+                <td>
+                    @if (item.ReportGroup.GroupName == ReportGroups.MultiMedia)
+                    {
+                        <video src="/Img/ReportImages/@Html.DisplayFor(modelItem => item.Image)" preload="metadata" class="img-thumbnail" style="max-width:60px;max-height:44.69px"></video>
+                    }
+                    else
+                    {
+                        <img src="/Img/ReportImages/@Html.DisplayFor(modelItem => item.Image)" style="max-width:60px" class="img-thumbnail" />
+                    }
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.View)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsHotNews)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportGroup.GroupName)
+            </td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@item.ReportId"><i class="fa fa-edit" style="color:darkorange;font-size:20px"></i></a>
+                    <a asp-page="Details" asp-route-id="@item.ReportId"><i class="fa fa-info-circle" style="color:darkblue;font-size:20px"></i></a>
+                    <a asp-page="Delete" asp-route-id="@item.ReportId"><i class="fa fa-trash" style="color:red;font-size:20px"></i></a>
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

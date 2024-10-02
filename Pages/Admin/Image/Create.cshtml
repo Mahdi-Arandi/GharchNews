@@ -1,0 +1,55 @@
+﻿@page
+@model GharchNews.Pages.Admin.Image.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Image.ImageName" class="control-label"></label>
+                <input asp-for="imgUp" type="file" name="imgUp" multiple id="imgUpload" /> <br />
+                <img id="imgpreview" style="max-width:320px" /> <br />
+                <span asp-validation-for="Image.ImageName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image.GalleryId" class="control-label"></label>
+                <select asp-for="Image.GalleryId" name="GalleryId" class="form-control" asp-items="ViewBag.GalleryId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="افزودن" class="btn btn-primary" />
+                <a asp-page="Index" class="btn btn-default">بازگشت به لیست</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+
+    <script>
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#imgpreview').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#imgUpload").change(function () {
+            readURL(this);
+        });
+    </script>
+
+}

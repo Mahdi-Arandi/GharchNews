@@ -1,0 +1,54 @@
+﻿@model IEnumerable<GharchNews.Models.Report>
+@using GharchNews.Utilities
+
+
+<!-- Start Health Line -->
+<div class="box">
+    <h6 class="position-relative ">
+        <span class="health-Line-Color position-relative bg-body"> @ReportGroups.Health </span>
+        <a asp-page="./Group" asp-route-Group="@ReportGroups.Health" class="more-report bg-body"> <i class="fas fa-bars ms-3"></i> همه اخبار </a>
+    </h6>
+</div>
+<!-- End Health Line -->
+<!-- Start Health -->
+<ul class="d-none d-sm-flex row mb-3 list-unstyled">
+    @foreach (var item in Model)
+    {
+        <li class="scale col-lg-3 col-sm-6 my-sm-2">
+            <div class="position-relative card shadow">
+                <a asp-page="./Report" asp-route-id="@item.ReportId">
+                    <img src="/Img/ReportImages/@item.Image" class="card-img-top img-sportANDeconomiccomponent" alt="...">
+                </a>
+                <div class="card-body p-2 mb-4 body-sportcomponent">
+                    <a asp-page="./Report" asp-route-id="@item.ReportId" class="text-decoration-none"><p class="card-text">@item.title</p></a>
+                    <div class="position-absolute date-sportANDeconomiccomponent">
+                        <p class="d-inline-block px-1 m-0"> <i class="fa fa-clock"></i> @item.CreateDate.ToShamsi() </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    }
+</ul>
+<!-- End Health -->
+<!-- Start Health Hidden -->
+<ul class=" mb-3 d-sm-none list-unstyled">
+    @foreach(var item in Model)
+    {
+        <li>
+            <div class="my-2">
+                <div class="col-12 shadow d-inline-flex">
+                    <div class="col-4">
+                        <a><img src="/Img/ReportImages/@item.Image" class="card-img h-100" alt="..."></a>
+                    </div>
+                    <div class="col-8 bg-body-secondary p-2 body-small-Healthcomponent">
+                        <a class="text-decoration-none"><p> @item.title </p></a>
+                        <p class="d-inline-block px-1 m-0 date-small-sportANDeconomiccomponent"> <i class="fas fa-clock"></i> @item.CreateDate.ToShamsi() </p>
+
+                    </div>
+                </div>
+            </div>
+        </li>
+
+    }
+</ul>
+<!-- End Health Hidden -->
