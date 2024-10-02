@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GharchNews")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19b7216a661961e2c5e6e5d23924de8dc05b9c0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28bd9664e960170cc8d5e492e5bb9f3fcd1b26a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("GharchNews")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GharchNews")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
