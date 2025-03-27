@@ -1,0 +1,116 @@
+﻿@page
+@model GharchNews.Pages.Admin.Gallery.IndexModel
+@using GharchNews.Roles
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<hr />
+<p>
+    <a asp-page="Create" class="btn btn-success"> افزودن گالری تصاویر </a>
+</p>
+<hr />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Image[0].ImageName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Galleries[0].GalleryName)
+            </th>
+            @if (User.IsInRole(SD.Admin))
+            {
+                <th>
+                    @Html.DisplayNameFor(model => model.Galleries[0].Id)
+                </th>
+            }
+            <th>
+                @Html.DisplayNameFor(model => model.Galleries[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Galleries[0].IsSuccess)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Galleries)
+        {
+            <tr>
+                <td>
+                    @{
+                        var img = Model.Image.Where(i => i.Gallery.GalleryName == item.GalleryName).OrderBy(i => i.CreateDate).Select(i => i.ImageName);
+
+                        if(img.Count() != 0)
+                        {
+                            <img src="/Img/galleryImages/@item.GalleryName/@img.FirstOrDefault()" style="width:60px" />
+                        }
+                        else
+                        {
+                            <img src="~/Img/galleryImages/پیش فرض.jpg" style="width:60px" />
+                        }
+                    }
+                </td>
+                <td>
+                    <a asp-page="../Image/Index" asp-route-GalleryName="@item.GalleryName" asp-page-handler="Gallery">
+                        @Html.DisplayFor(modelItem => item.GalleryName)
+                    </a>
+                </td>
+                @if (User.IsInRole(SD.Admin))
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Users.Name)
+                        @Html.DisplayFor(modelItem => item.Users.Family)
+                    </td>
+                }
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+
+                <td>
+                    @if (User.IsInRole(SD.Admin))
+                    {
+                        @if (item.IsSuccess == false)
+                        {
+                            <a asp-page-handler="IsSuccess" asp-route-id="@item.GalleryId" class="btn btn-success"> انتشار گالری </a>
+                        }
+                        else
+                        {
+                            <a asp-page-handler="IsSuccess" asp-route-id="@item.GalleryId" class="btn btn-warning"> منتشر شده </a>
+                        }
+                    }
+                    else if (User.IsInRole(SD.User) && item.Id == ViewBag.userId)
+                    {
+                        @if (item.IsSuccess == true)
+                        {
+                            <a disabled class="btn btn-success"> منتشر شده </a>
+                        }
+                        else
+                        {
+                            <a disabled class="btn btn-warning"> در صف انتشار </a>
+                        }
+                    }
+                </td>
+
+                @if (User.IsInRole(SD.Admin))
+                {
+                    <td>
+                        <a asp-page="Edit" asp-route-id="@item.GalleryId"><i class="fa fa-edit" style="color:darkorange;font-size:20px"></i></a>
+                        <a asp-page-handler="Delete" asp-route-id="@item.GalleryId"><i class="fa fa-trash" style="color:red;font-size:20px"></i></a>
+                    </td>
+                }
+                else if (User.IsInRole(SD.User) && item.IsSuccess == false)
+                {
+                    <td>
+                        <a asp-page="Edit" asp-route-id="@item.GalleryId"><i class="fa fa-edit" style="color:darkorange;font-size:20px"></i></a>
+                        <a asp-page-handler="Delete" asp-route-id="@item.GalleryId"><i class="fa fa-trash" style="color:red;font-size:20px"></i></a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

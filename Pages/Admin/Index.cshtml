@@ -1,0 +1,260 @@
+﻿@page
+@model GharchNews.Pages.Admin.IndexModel
+@using GharchNews.Roles
+@using Newtonsoft.Json
+
+@{
+    Layout = "_AdminLayout";
+    string ArrayJs = JsonConvert.SerializeObject(ViewBag.Result);
+}
+
+
+<script src="~/Assets/HighChart/highcharts.js"></script>
+<script src="~/Assets/HighChart/exporting.js"></script>
+
+
+@section Scripts {
+
+    <script type="text/javascript">
+        Highcharts.chart('container', {
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: 'نمودار درج اخبار'
+            },
+            xAxis: {
+                type: 'category',
+                labels: {
+                    autoRotation: -45,
+                    style: {
+                        fontSize: '13px',
+                        fontFamily: 'Vazir, sans-serif'
+                    }
+                }
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: 'تعداد اخبار (در هر گروه)'
+                }
+            },
+            legend: {
+                enabled: false
+            },
+            tooltip: {
+                pointFormat: 'تعداد: <b>{point.y:.0f} </b>'
+            },
+            series: [{
+                name: 'Population',
+                colors: [
+                    '#9b20d9', '#9215ac', '#861ec9', '#7a17e6', '#7010f9', '#691af3',
+                    '#6225ed', '#5b30e7', '#533be1', '#4c46db', '#4551d5', '#3e5ccf',
+                    '#3667c9', '#2f72c3', '#277dbd', '#1f88b7', '#1693b1', '#0a9eaa',
+                    '#03c69b', '#00f194'
+                ],
+                colorByPoint: true,
+                groupPadding: 0,
+                data: 
+
+                @Html.Raw(ArrayJs.Replace("\"","'")),
+
+
+                // [
+                //     ['Tokyo', 37.33],
+                //     ['Delhi', 31.18],
+                //     ['Shanghai', 27.79],
+                //     ['Sao Paulo', 22.23],
+                //     ['Mexico City', 21.91],
+                //     ['Dhaka', 21.74],
+                //     ['Cairo', 21.32],
+                //     ['Beijing', 20.89],
+                //     ['Mumbai', 20.67],
+                //     ['Osaka', 19.11],
+                //     ['Karachi', 16.45],
+                //     ['Chongqing', 16.38],
+                //     ['Istanbul', 15.41],
+                //     ['Buenos Aires', 15.25],
+                //     ['Kolkata', 14.974],
+                //     ['Kinshasa', 14.970],
+                //     ['Lagos', 14.86],
+                //     ['Manila', 14.16],
+                //     ['Tianjin', 13.79],
+                //     ['Guangzhou', 13.64]
+                // ],
+                dataLabels: {
+                    enabled: true,
+                    rotation: -90,
+                    color: '#FFFFFF',
+                    inside: true,
+                    verticalAlign: 'top',
+                    format: '{point.y:.0f}', // one decimal
+                    y: 10, // 10 pixels down from the top
+                    style: {
+                        fontSize: '13px',
+                        fontFamily: 'Vazir, sans-serif'
+                    }
+                }
+            }]
+        });
+
+    </script>
+}
+
+
+
+
+<div class="row">
+
+    @if (User.IsInRole(SD.Admin))
+    {
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-aqua">
+                <div class="inner">
+                    <h3> @ViewBag.AllReport </h3>
+
+                    <p> خبر </p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-newspaper-o"></i>
+                </div>
+                <a href="~/Admin/Report" class="small-box-footer">
+                    مشاهده اخبار <i class="fa fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-green">
+                <div class="inner">
+                    <h3> @ViewBag.AllComment </h3>
+
+                    <p> نظر </p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <a href="~/Admin/Comment/Confirmed" class="small-box-footer">
+                    مشاهده نظرات <i class="fa fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-yellow">
+                <div class="inner">
+                    <h3> @ViewBag.AllImage </h3>
+
+                    <p> تصویر </p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-image"></i>
+                </div>
+                <a href="~/Admin/Image" class="small-box-footer">
+                    مشاهده تصاویر <i class="fa fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-red">
+                <div class="inner">
+                    <h3> @ViewBag.AllAds </h3>
+
+                    <p> تبلیغ </p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-buysellads"></i>
+                </div>
+                <a href="~/Admin/Ads" class="small-box-footer">
+                    مشاهده تبلیغات <i class="fa fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+        <!-- ./col -->
+    }
+    else
+    {
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-aqua">
+                <div class="inner">
+                    <h3> @ViewBag.UserReport </h3>
+
+                    <p> خبر </p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-newspaper-o"></i>
+                </div>
+                <a href="~/Admin/Report" class="small-box-footer">
+                    مشاهده اخبار <i class="fa fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-green">
+                <div class="inner">
+                    <h3> @ViewBag.UserGallery </h3>
+
+                    <p> گالری </p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-folder-open-o"></i>
+                </div>
+                <a href="~/Admin/Gallery" class="small-box-footer">
+                    مشاهده گالری ها <i class="fa fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-yellow">
+                <div class="inner">
+                    <h3> @ViewBag.UserImage </h3>
+
+                    <p> تصویر </p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-image"></i>
+                </div>
+                <a href="~/Admin/Image" class="small-box-footer">
+                    مشاهده تصاویر <i class="fa fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-red">
+                <div class="inner">
+                    <h3> @ViewBag.UserHashtag </h3>
+
+                    <p> هشتگ </p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-hashtag"></i>
+                </div>
+                <a href="~/Admin/Hashtag" class="small-box-footer">
+                    مشاهده هشتگ ها <i class="fa fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+        <!-- ./col -->
+    }
+
+</div>
+
+
+<figure class="highcharts-figure">
+    <div id="container"></div>
+    <p class="highcharts-description text-center">
+        تعداد اخبار درج شده در هر دسته خبری
+    </p>
+</figure>

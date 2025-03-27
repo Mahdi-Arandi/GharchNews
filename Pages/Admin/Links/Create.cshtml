@@ -1,0 +1,32 @@
+﻿@page
+@model GharchNews.Pages.Admin.Links.CreateModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Links.LinkName" class="control-label"></label>
+                <input asp-for="Links.LinkName" class="form-control" />
+                <span asp-validation-for="Links.LinkName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Links.LinkAddress" class="control-label"></label>
+                <input asp-for="Links.LinkAddress" class="form-control" />
+                <span asp-validation-for="Links.LinkAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="افزودن" class="btn btn-primary" />
+                <a asp-page="Index" class="btn btn-default">بازگشت به لیست</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+

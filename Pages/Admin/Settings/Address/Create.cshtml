@@ -1,0 +1,45 @@
+﻿@page
+@model GharchNews.Pages.Admin.Settings.Address.CreateModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Address.PhoneNumber" class="control-label"></label>
+                <input asp-for="Address.PhoneNumber" class="form-control" />
+                <span asp-validation-for="Address.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address.Fax" class="control-label"></label>
+                <input asp-for="Address.Fax" class="form-control" />
+                <span asp-validation-for="Address.Fax" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address.Mobile" class="control-label"></label>
+                <input asp-for="Address.Mobile" class="form-control" />
+                <span asp-validation-for="Address.Mobile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address.Office" class="control-label"></label>
+                <textarea asp-for="Address.Office" class="form-control" rows="5"></textarea>
+                <span asp-validation-for="Address.Office" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address.PostalCode" class="control-label"></label>
+                <input asp-for="Address.PostalCode" class="form-control" />
+                <span asp-validation-for="Address.PostalCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="افزودن" class="btn btn-primary" />
+                <a asp-page="Index" class="btn btn-default">بازگشت به لیست</a>
+            </div>
+        </form>
+    </div>
+</div>
+

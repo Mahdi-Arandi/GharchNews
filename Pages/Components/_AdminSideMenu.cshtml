@@ -1,0 +1,215 @@
+﻿@model GharchNews.Models.ViewModels.AdminSideMenuVM
+@using GharchNews.Utilities
+@using GharchNews.Roles
+
+
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+        <!-- Sidebar user panel -->
+        <div class="user-panel">
+            <div class="pull-right image">
+                @if (Model.ProfileImage == null)
+                {
+                    <img src="~/Img/ProfileImages/پروفایل.jpg" class="img-circle" alt="User Image">
+                }
+                else
+                {
+                    <img src="~/Img/ProfileImages/@Model.ProfileImage" class="img-circle" alt="User Image">
+                }
+            </div>
+            <div class="pull-right info">
+                <p> @Model.Name @Model.Family <span style="font-size:9px;"> (@Model.InRole) </span> </p>
+                <a href="#"><i class="fa fa-circle text-success"></i> آنلاین </a>
+            </div>
+        </div>
+        <!-- search form -->
+        <form action="#" method="get" class="sidebar-form">
+            <div class="input-group">
+                <input type="text" name="q" class="form-control" placeholder="جستجو">
+                <span class="input-group-btn">
+                    <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+        </form>
+        <!-- /.search form -->
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu" data-widget="tree">
+            <li class="header">منو</li>
+            <li>
+                <a href="/Admin/Index">
+                    <i class="fa fa-dashboard" style="color:cornflowerblue"></i> <span> داشبرد </span>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-newspaper-o" style="color:white"></i>
+                    <span> اخبار </span>
+                    <span class="pull-left-container">
+                        <i class="fa fa-angle-right pull-left"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="/Admin/Report/Create"><i class="fa fa-circle-o" style="color:greenyellow"></i> افزودن خبر جدید </a></li>
+                    <li><a href="/Admin/Report"><i class="fa fa-circle-o" style="color:darkred"></i> همه اخبار </a></li>
+                    @if (User.IsInRole(SD.Admin))
+                    {
+                        <li><a href="/Admin/Report/NotConfirmed"><i class="fa fa-circle-o" style="color:green"></i><span class="label label-info pull-left"> @Model.NotConfirmedReportCount </span> اخبار در انتظار تائید </a></li>
+                    }
+                </ul>
+            </li>
+            @if (User.IsInRole(SD.Admin))
+            {
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-list" style="color:orange"></i>
+                        <span> دسته های خبری </span>
+                        <span class="pull-left-container">
+                            <i class="fa fa-angle-right pull-left"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="/Admin/ReportGroup/Create"><i class="fa fa-circle-o" style="color:aqua"></i> افزودن دسته جدید </a></li>
+                        <li><a href="/Admin/ReportGroup"><i class="fa fa-circle-o" style="color:lawngreen"></i> همه دسته ها </a></li>
+                    </ul>
+                </li>
+
+            }
+
+            @if (User.IsInRole(SD.Admin))
+            {
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-comment" style=" color:green"></i>
+                        <span> نظرات </span>
+                        <span class="pull-left-container">
+                            <i class="fa fa-angle-right pull-left"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="/Admin/Comment/Confirmed"><i class="fa fa-circle-o" style="color:white"></i> نظرات تایید شده </a></li>
+                        <li><a href="/Admin/Comment/NotConfirmed"><i class="fa fa-circle-o" style="color:black"></i><span class="label label-warning pull-left"> @Model.NotConfirmedCommentCount </span> نظرات خوانده نشده </a></li>
+                    </ul>
+                </li>
+
+            }
+
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-hashtag" style=" color:cornflowerblue"></i>
+                    <span> هشتگ ها </span>
+                    <span class="pull-left-container">
+                        <i class="fa fa-angle-right pull-left"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="/Admin/Hashtag/Create"><i class="fa fa-circle-o" style="color:darkblue"></i> ایجاد هشتگ جدید </a></li>
+                    <li><a href="/Admin/Hashtag"><i class="fa fa-circle-o" style="color:chocolate"></i> همه هشتگ ها </a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-folder" style=" color:yellow"></i>
+                    <span> گالری تصاویر </span>
+                    <span class="pull-left-container">
+                        <i class="fa fa-angle-right pull-left"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="/Admin/Gallery/Create"><i class="fa fa-circle-o" style="color:orange"></i> افزودن گالری جدید </a></li>
+                    <li><a href="/Admin/Gallery"><i class="fa fa-circle-o" style="color:aqua"></i> مشاهده همه گالری ها </a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-image" style=" color:red"></i>
+                    <span> تصاویر </span>
+                    <span class="pull-left-container">
+                        <i class="fa fa-angle-right pull-left"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="/Admin/Image/Create"><i class="fa fa-circle-o" style="color:yellow"></i> افزودن تصویر جدید </a></li>
+                    <li><a href="/Admin/Image"><i class="fa fa-circle-o" style="color:green"></i> همه تصاویر </a></li>
+                </ul>
+            </li>
+
+            @if (User.IsInRole(SD.Admin))
+            {
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-buysellads" style=" color:blue"></i>
+                        <span> تبلیغات </span>
+                        <span class="pull-left-container">
+                            <i class="fa fa-angle-right pull-left"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="/Admin/Ads/Create"><i class="fa fa-circle-o" style="color:darkred"></i> افزودن آگهی جدید </a></li>
+                        <li><a href="/Admin/Ads"><i class="fa fa-circle-o" style="color:yellowgreen"></i> همه آگهی ها </a></li>
+                    </ul>
+                </li>
+
+            }
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-link" style=" color:orange"></i>
+                    <span> لینک ها </span>
+                    <span class="pull-left-container">
+                        <i class="fa fa-angle-right pull-left"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="/Admin/Links/Create"><i class="fa fa-circle-o" style="color:green"></i> افزودن لینک جدید </a></li>
+                    <li><a href="/Admin/Links"><i class="fa fa-circle-o" style="color:blue"></i> همه لینک ها </a></li>
+                </ul>
+            </li>
+
+            @if (User.IsInRole(SD.Admin))
+            {
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-user" style=" color:blueviolet"></i>
+                        <span> مدیریت کاربران </span>
+                        <span class="pull-left-container">
+                            <i class="fa fa-angle-right pull-left"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="/Admin/User"><i class="fa fa-circle-o" style="color:lightcoral"></i> کاربران </a></li>
+                        <li><a href="/Admin/User/Register"><i class="fa fa-circle-o" style="color:lawngreen"></i> افزودن کاربر جدید </a></li>
+                    </ul>
+                </li>
+            }
+            else if (User.IsInRole(SD.User))
+            {
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-user" style=" color:blueviolet"></i>
+                        <span> مدیریت حساب کاربری </span>
+                        <span class="pull-left-container">
+                            <i class="fa fa-angle-right pull-left"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="/Admin/User/Profile"><i class="fa fa-circle-o" style="color:lightcoral"></i> ویرایش حساب کاربری </a></li>
+                        <li><a href="/Admin/User/ResetPassword"><i class="fa fa-circle-o" style="color:lawngreen"></i> تغییر رمز عبور </a></li>
+                    </ul>
+                </li>
+            }
+
+            @if (User.IsInRole(SD.Admin))
+            {
+                <li>
+                    <a href="/Admin/ContactUs">
+                        <i class="fa fa-phone" style=" color:black"></i>
+                        <span> تماس با ما </span>
+                    </a>
+                </li>
+            }
+        </ul>
+    </section>
+    <!-- /.sidebar -->
+</aside>

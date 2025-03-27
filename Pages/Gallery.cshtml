@@ -1,0 +1,24 @@
+﻿@page
+@model GharchNews.Pages.GalleryModel
+@{
+}
+
+
+<link href="~/assets/css/honeycombstyle.css" rel="stylesheet" />
+
+<div class="col-12 col-lg-9 mb-5">
+    <div class=" bg-light-subtle border-style rounded p-5">
+        <h4 class="text-center">گالری تصاویر</h4>
+        <ul id="hexGrid" style="padding-top: 20px; padding-bottom: 75px;">
+            @foreach(var item in Model.Galleries)
+            {
+                <li class="hex">
+                    <a asp-page="GalleryImages" asp-route-id="@item.GalleryId" asp-route-GalleryName="@item.GalleryName" class="hexIn" style=" background-color:antiquewhite">
+                        <h1> @item.GalleryName </h1>
+                        <p> @item.Description </p>
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

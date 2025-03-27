@@ -1,0 +1,110 @@
+﻿@page
+@model GharchNews.Pages.Admin.Ads.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<h5 class="alert alert-danger"> آیا از حذف این آگهی مطمئن هستید؟ </h5>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ads.AdsName)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Ads.AdsName != null)
+            {
+                @Html.DisplayFor(model => model.Ads.AdsName)
+            }
+            else
+            {
+                <h1> </h1> <br />
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ads.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Ads.Email != null)
+            {
+                @Html.DisplayFor(model => model.Ads.Email)
+            }
+            else
+            {
+                <h1> </h1> <br />
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ads.PhoneNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Ads.PhoneNumber != null)
+            {
+                @Html.DisplayFor(model => model.Ads.PhoneNumber)
+            }
+            else
+            {
+                <h1> </h1> <br />
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ads.Subject)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Ads.Subject != null)
+            {
+                @Html.DisplayFor(model => model.Ads.Subject)
+            }
+            else
+            {
+                <h1> </h1> <br />
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ads.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Ads.Price != null)
+            {
+                @Html.DisplayFor(model => model.Ads.Price)
+            }
+            else
+            {
+                <h1> </h1> <br />
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ads.CreateDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ads.CreateDate) <br />
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ads.ExpireDate)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Ads.ExpireDate != null)
+            {
+                @Html.DisplayFor(model => model.Ads.ExpireDate)
+            }
+            else
+            {
+                <h1> </h1> <br />
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ads.Image)
+        </dt>
+        <dd class="col-sm-10">
+            <img src="/Img/AdsImages/@Model.Ads.Image" style="max-width:320px" class="img-thumbnail" /> <br />
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Ads.AdsId" />
+        <input type="submit" value="حذف" class="btn btn-danger" />
+        <a asp-page="./Index" class="btn btn-default"> بازگشت به لیست </a>
+    </form>
+</div>

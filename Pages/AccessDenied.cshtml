@@ -1,0 +1,11 @@
+﻿@page
+@model AccessDeniedModel
+@{
+    ViewData["Title"] = "دسترسی غیرمجاز";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<header>
+    <h1 class="text-danger">@ViewData["Title"]</h1>
+    <p class="text-danger">شما به این قسمت دسترسی ندارید.</p>
+</header>

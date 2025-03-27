@@ -1,0 +1,65 @@
+﻿@page
+@model GharchNews.Pages.Admin.Settings.Address.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<p>
+    @if (Model.Address.Count == 0)
+    {
+        <a asp-page="Create" class="btn btn-success"> افزودن </a>
+    }
+    else
+    {
+        <a asp-page="Edit" asp-route-id="@Model.Address[0].AddressId" class="btn btn-warning"> ویرایش </a>
+    }
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Address[0].PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address[0].Fax)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address[0].Mobile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address[0].Office)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address[0].PostalCode)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Address)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fax)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mobile)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Office)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostalCode)
+                </td>
+                <td>
+                    <a asp-page-handler="Delete" asp-route-id="@item.AddressId" class="btn btn-sm btn-danger" style=" margin:2px"><i class="fa fa-trash p-1"></i> حذف </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

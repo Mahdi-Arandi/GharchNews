@@ -1,0 +1,62 @@
+﻿@page
+@model GharchNews.Pages.Admin.User.DeleteModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<h5 class="alert alert-danger"> آیا از حذف این کاربر مطمئن هستید؟ </h5>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MyUser.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MyUser.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MyUser.Family)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MyUser.Family)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MyUser.PhoneNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MyUser.PhoneNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MyUser.ProfileImage)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.MyUser.ProfileImage == null)
+            {
+                <img id="imgpreview" src="/Img/ProfileImages/پروفایل.jpg" style="max-width:320px" class="img-thumbnail" /> <br />
+            }
+            else
+            {
+                <img id="imgpreview" src="/Img/ProfileImages/@Model.MyUser.ProfileImage" style="max-width:320px" class="img-thumbnail" /> <br />
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MyUser.UserName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MyUser.UserName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MyUser.InRole)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MyUser.InRole)
+        </dd>
+    </dl>
+
+    <form method="post">
+        <input type="hidden" asp-for="MyUser.Id" />
+        <input type="submit" value="حذف" class="btn btn-danger" />
+        <a asp-page="./Index" class="btn btn-default"> بازگشت به لیست </a>
+    </form>
+</div>

@@ -1,0 +1,166 @@
+﻿@page
+@model GharchNews.Pages.Admin.Report.DetailsModel
+@using GharchNews.Roles
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Report.title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Report.title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Report.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Report.Description != null)
+            {
+                @Html.DisplayFor(model => model.Report.Description)
+            }
+            else
+            {
+                <h1> </h1> <br />
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Report.FullText)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Report.FullText != null)
+            {
+                @Html.DisplayFor(model => model.Report.FullText)
+            }
+            else
+            {
+                <h1> </h1> <br />
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Report.Image)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Report.Image != null)
+            {
+                <img src="/Img/ReportImages/@Model.Report.Image" style="max-width:320px" class="img-thumbnail" /> <br />
+                @Html.DisplayFor(model => model.Report.Image)
+            }
+            else
+            {
+                <h1> </h1> <br />
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Report.ImageAlt)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Report.ImageAlt != null)
+            {
+                @Html.DisplayFor(model => model.Report.ImageAlt)
+            }
+            else
+            {
+                <h1> </h1> <br />
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Report.ImageTitle)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Report.ImageTitle != null)
+            {
+                @Html.DisplayFor(model => model.Report.ImageTitle)
+            }
+            else
+            {
+                <h1> </h1> <br />
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Report.Source)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Report.Source != null)
+            {
+                @Html.DisplayFor(model => model.Report.Source)
+            }
+            else
+            {
+                <h1> </h1> <br />
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Report.Tags)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Report.Tags != null)
+            {
+                @Html.DisplayFor(model => model.Report.Tags)
+            }
+            else
+            {
+                <h1> </h1> <br />
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Report.CreateDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Report.CreateDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Report.Author)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Report.Author)
+        </dd>
+        @if (User.IsInRole(SD.Admin))
+        {
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Report.View)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Report.View)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Report.IsHotNews)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Report.IsHotNews)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Report.HotNewsDate)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Report.HotNewsDate)
+            </dd>
+        }
+
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Report.ReportGroup)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Report.ReportGroup.GroupName)
+        </dd>
+    </dl>
+</div>
+<div>
+    @if (User.IsInRole(SD.Admin))
+    {
+        <a asp-page="./Edit" asp-route-id="@Model.Report.ReportId" asp-route-ReturnUrl="@ViewBag.ReturnUrl" class="btn btn-warning">ویرایش</a>
+        <a asp-page="@ViewBag.ReturnUrl" class="btn btn-default">بازگشت به لیست</a>
+    }
+    else
+    {
+        <a asp-page="@ViewBag.ReturnUrl" class="btn btn-default">بازگشت به لیست</a>
+    }
+
+</div>

@@ -1,0 +1,61 @@
+﻿@page
+@model GharchNews.Pages.Admin.Comment.EditModel
+@using GharchNews.Utilities
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Comment.CommentId" />
+            <input type="hidden" asp-for="Comment.ReportId" />
+            <div class="form-group">
+                <label asp-for="Comment.Name" class="control-label"></label>
+                <input asp-for="Comment.Name" class="form-control" />
+                <span asp-validation-for="Comment.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Comment.Email" class="control-label"></label>
+                <input asp-for="Comment.Email" class="form-control" />
+                <span asp-validation-for="Comment.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Comment.CommentText" class="control-label"></label>
+                <input asp-for="Comment.CommentText" class="form-control" />
+                <span asp-validation-for="Comment.CommentText" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Comment.IsSuccess" /> @Html.DisplayNameFor(model => model.Comment.IsSuccess)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Comment.CreateDate" class="control-label"></label>
+                <input value="@Model.Comment.CreateDate.ToShamsi()" class="form-control" dir="ltr" type="text" onclick="Mh1PersianDatePicker.Show(this,'@DateTime.Now.ToString("yyyy/MM/dd")')" />
+                <span asp-validation-for="Comment.CreateDate" class="text-danger"></span>
+            </div>
+@*             <div class="form-group">
+                <label asp-for="Comment.ReportId" class="control-label"></label>
+                <select asp-for="Comment.ReportId" class="form-control" asp-items="ViewBag.ReportId"></select>
+                <span asp-validation-for="Comment.ReportId" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <input type="submit" value="ویرایش" class="btn btn-warning" />
+                <a asp-page="@ViewBag.returnUrl" class="btn btn-default"> بازگشت به لیست </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<link href="~/assets/calendar/mh1persiandatepicker.css" rel="stylesheet" />
+<script src="~/assets/calendar/mh1persiandatepicker.js"></script>

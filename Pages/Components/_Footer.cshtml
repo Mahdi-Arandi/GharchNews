@@ -1,0 +1,85 @@
+﻿@model GharchNews.Models.ViewModels.FooterVM
+@using GharchNews.Utilities
+
+
+<footer>
+
+    <div class="col-12 row m-0 footer body-footer steel-man">
+        <div class="col-12 col-md-6 col-lg-3 p-4">
+            <h6 class="pb-4">درباره ما</h6>
+            <p class="text-footer" style="color:#cdcdcd">
+                @Model.AboutUs.AboutText
+            </p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 p-4">
+            <h6 class="pb-4">جدیدترین ارسال ها</h6>
+            <ul class="list-unstyled">
+                @foreach (var item in Model.Reports)
+                {
+                    <li class="d-block">
+                        <div class="d-inline-flex align-items-center">
+                            <a asp-page="./Report" asp-route-id="@item.ReportId">
+                                <img src="~/Img/ReportImages/@item.Image" class="rounded img-Footer" alt="">
+                            </a>
+                            <p class="px-2">
+                                <a asp-page="./Report" asp-route-id="@item.ReportId" class="text-decoration-none text-footer" style="color:#cdcdcd">
+                                    @item.title
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 p-4">
+            <h6 class="pb-4">جدیدترین نظرات کاربران</h6>
+            @foreach (var item in Model.Comments)
+            {
+                <h6 class="comment-name-footer">@item.Name</h6>
+                <p class="text-footer">
+                    @Html.Raw(item.CommentText)
+                </p>
+            }
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 p-4">
+            <h6 class="pb-4">گالری تصاویر</h6>
+            <ul class="list-unstyled ">
+                @foreach (var item in Model.Images)
+                {
+                    <li class="d-inline-flex">
+                        <img id="@item.ImageId" src="~/Img/galleryImages/@ViewBag.galleryName/@item.ImageName" class="rounded img-Footer" alt="@item.Gallery.GalleryName">
+                    </li>
+
+
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+
+                    <script>
+                        var modal = document.getElementById('myModal');
+                        var img = document.getElementById(@item.ImageId);
+                        var modalImg = document.getElementById('img01');
+                        modalImg.style.height = "90%";
+                        modalImg.style.width = "90%";
+                        var captionText = document.getElementById('caption');
+                        img.onclick = function () {
+                            modal.style.display = "block";
+                            modal.style.height = "100%";
+                            modalImg.src = this.src;
+                            captionText.innerHTML = this.alt;
+                        }
+                        var span = document.getElementsByClassName("close")[0];
+                        span.onclick = function () {
+                            modal.style.display = "none";
+                        }
+                    </script>
+                }
+            </ul>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,43 @@
+﻿@page
+@model GharchNews.Pages.Admin.Links.EditModel
+@using GharchNews.Roles
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Links.LinkId" />
+            <input type="hidden" asp-for="Links.Id" />
+
+            <div class="form-group">
+                <label asp-for="Links.LinkName" class="control-label"></label>
+                <input asp-for="Links.LinkName" class="form-control" />
+                <span asp-validation-for="Links.LinkName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Links.LinkAddress" class="control-label"></label>
+                <input asp-for="Links.LinkAddress" class="form-control" />
+                <span asp-validation-for="Links.LinkAddress" class="text-danger"></span>
+            </div>
+            @if (User.IsInRole(SD.Admin))
+            {
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Links.IsSuccess" /> @Html.DisplayNameFor(model => model.Links.IsSuccess)
+                    </label>
+                </div>
+            }
+            <div class="form-group">
+                <input type="submit" value="ویرایش" class="btn btn-warning" />
+                <a asp-page="./Index" class="btn btn-default"> بازگشت به لیست </a>
+            </div>
+        </form>
+    </div>
+</div>
+

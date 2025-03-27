@@ -1,0 +1,56 @@
+﻿@page
+@model GharchNews.Pages.Admin.ContactUs.EditModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ContactUs.ContactId" />
+            <div class="form-group">
+                <label asp-for="ContactUs.Name" class="control-label"></label>
+                <input asp-for="ContactUs.Name" class="form-control" />
+                <span asp-validation-for="ContactUs.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactUs.Email" class="control-label"></label>
+                <input asp-for="ContactUs.Email" class="form-control" />
+                <span asp-validation-for="ContactUs.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactUs.PhoneNumber" class="control-label"></label>
+                <input asp-for="ContactUs.PhoneNumber" class="form-control" />
+                <span asp-validation-for="ContactUs.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactUs.Subject" class="control-label"></label>
+                <input asp-for="ContactUs.Subject" class="form-control" />
+                <span asp-validation-for="ContactUs.Subject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactUs.Message" class="control-label"></label>
+                <input asp-for="ContactUs.Message" class="form-control" />
+                <span asp-validation-for="ContactUs.Message" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactUs.CreateDate" class="control-label"></label>
+                <input asp-for="ContactUs.CreateDate" class="form-control" dir="ltr" type="text" onclick="Mh1PersianDatePicker.Show(this,'@DateTime.Now.ToString("yyyy/MM/dd")')" disabled/>
+                <span asp-validation-for="ContactUs.CreateDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="ویرایش" class="btn btn-warning" />
+                <a asp-page="./Index" class="btn btn-default"> بازگشت به لیست </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<link href="~/assets/calendar/mh1persiandatepicker.css" rel="stylesheet" />
+<script src="~/assets/calendar/mh1persiandatepicker.js"></script>

@@ -1,0 +1,284 @@
+﻿@page
+@model GharchNews.Pages.ReportModel
+@using GharchNews.Utilities
+@{
+}
+
+<link href="~/assets/flexslider/flexslider.css" rel="stylesheet" />
+<script src="~/assets/flexslider/jquery.min.js"></script>
+<script src="~/assets/flexslider/jquery.flexslider.js"></script>
+
+
+<!-- Start Col-9 -->
+<div class="col-12 col-lg-9 mb-5">
+    <div class="replace-digits bg-light-subtle border-style rounded p-5">
+        <div class=" bg-light border my-3 mx-1">
+            <ul class="list-unstyled w-100 m-0">
+                <li class="item-top-report">
+                    <i class="fa fa-calendar-alt px-2 icon-top-report"></i>
+                    <span class="texticon-top-report"> زمان درج: </span>
+                    <span class="texticon-top-report"> @Model.Report.CreateDate.ToShamsi() </span>
+                </li>
+                <li class="item-top-report">
+                    <i class="fa fa-folder-open px-2 icon-top-report"></i>
+                    <span class="texticon-top-report"> دسته بندی: </span>
+                    <span class="texticon-top-report"> @Model.Report.ReportGroup.GroupName </span>
+                </li>
+                <li class="item-top-report">
+                    <i class="fa fa-newspaper px-2 icon-top-report"></i>
+                    <span style="font-size: .7rem; color: rgb(245, 33, 57);"> کد خبر: </span>
+                    <span class="texticon-top-report"> @Model.Report.ReportId </span>
+                </li>
+                <li class="item-top-report">
+                    <i class="fa fa-microphone px-2 icon-top-report"></i>
+                    <span class="texticon-top-report"> منبع : </span>
+                    <span class="texticon-top-report"> @Model.Report.Source </span>
+                </li>
+                <li class="item-top-report">
+                    <a onclick="printdiv()">
+                        <i class="fa fa-print px-2 icon-top-report"></i>
+                        <span class="texticon-top-report"> چاپ </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <section id="print_this">
+            <div>
+                @if (Model.Report.ReportGroup.GroupName == ReportGroups.MultiMedia)
+                {
+                    <video src="~/Img/ReportImages/@Model.Report.Image" preload="metadata" controls class="rounded img-main-report" title="@Model.Report.ImageTitle" alt="@Model.Report.ImageAlt"></video>
+                }
+                else
+                {
+                    <img src="~/Img/ReportImages/@Model.Report.Image" class="rounded img-main-report" alt="">
+                }
+            </div>
+
+            <div>
+                <p class="title-report">
+                    @Model.Report.title
+                </p>
+                <p class="description-report">
+                    @Model.Report.Description
+                </p>
+                <div>
+                    <span>
+                        <p>
+                            @Html.Raw(Model.Report.FullText)
+                        </p>
+                        <div class="d-inline-flex">
+                            <i class="fas fa-user-pen px-2 mt-1 icon-author-report"></i>
+                            <p class="text-author-report">نویسنده: @Model.Report.Author</p>
+                        </div>
+                    </span>
+                </div>
+
+            </div>
+        </section>
+
+        <hr>
+        <div class="col-12">
+            <div class="position-relative">
+                <div class="d-sm-inline-flex d-block">
+                    <p class="share-text-report">اشتراک گذاری</p>
+                </div>
+                <div class="share position-absolute d-inline-flex end-0">
+                    <a><img src="Assets/Img/Links/WhatsApp_4_11zon.png" class="rounded mx-1 shadow share-img-report"></a>
+                    <a><img src="Assets/Img/Links/Telegram_2_11zon.png" class="rounded mx-1 shadow share-img-report"></a>
+                    <a><img src="Assets/Img/Links/Instagram_11zon.jpg" class="rounded mx-1 shadow share-img-report"></a>
+                    <a><img src="Assets/Img/Links/Twitter_3_11zon.png" class="rounded mx-1 shadow share-img-report"></a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="replace-digits rounded border-style my-3">
+        <ul class="tags bg-light py-3 m-0">
+            <li class="btn btn-primary btn-sm mb-1"> <i class="fa fa-tags"></i> برچسب ها </li>
+            @if (Model.Report.Tags != null)
+            {
+                @foreach (var item in Model.Report.Tags.Split("،"))
+                {
+                    <li class="btn btn-secondary btn-sm mb-1"> <i class="fa fa-tag"></i> @item </li>
+                }
+            }
+            <li class="list-unstyled">  </li>
+
+        </ul>
+    </div>
+
+
+    <!-- Start RelatedReports Line -->
+    <div class="box">
+            <h6 class="position-relative ">
+                <span class="Seda-Line-Color position-relative bg-body"> اخبار مرتبط </span>
+            </h6>
+    </div>
+    <!-- End RelatedReports Line -->
+    <!-- Start RelatedReports -->
+    <!-- FlexSlider -->
+    <script>
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                animationLoop: true,
+                itemWidth: 235,
+                itemMargin: 5,
+                smoothHeight: true,
+                isFirefox: true,
+                rtl: true
+            });
+        });
+    </script>
+
+    <div class="flexslider carousel">
+        <ul class="slides">
+            @foreach (var item in Model.Reports)
+            {
+                <li style="padding: 5px;">
+                    <div style="background: #ccc; height: 330px; overflow: hidden">
+                        <a asp-page="./Report" asp-route-id="@item.ReportId" class="" style="text-decoration:none;">
+                            @if (item.ReportGroup.GroupName == ReportGroups.MultiMedia)
+                            {
+                                <video src="~/Img/ReportImages/@item.Image" preload="metadata" style=" height:240px; width:240px"></video>
+                            }
+                            else
+                            {
+                                <img src="~/Img/ReportImages/@item.Image" style=" height:240px;" />
+                            }
+                            <p style="color: dimgray; padding: 10px; font-weight:bold; text-align: justify-all; border-top: 3px solid darkorange;"> @item.title </p>
+                        </a>
+                    </div>
+                </li>
+            }
+
+            <!-- items mirrored twice, total of 12 -->
+        </ul>
+    </div>
+    <!-- End RelatedReports -->
+    <!-- Start Comment-Form -->
+    <div class="bg-body-tertiary p-3 rounded border-style">
+        <div class="">
+            <i class="fa fa-comment-alt px-2 commentalt-icon-report"></i>
+            <p class="commenttext-style-report">نظرات کاربران در رابطه با این خبر</p>
+        </div>
+        <div class="comment-body-report">
+
+            <form method="post" class="position-relative">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <p style="font-size: .8rem;">دیدگاه خود را بنویسید</p>
+
+                <div class="form-group">
+                    <input asp-for=Comment.Name name="name" placeholder="نام شما" id="txtName" class="form-control" />
+                    <span asp-validation-for="Comment.Name" class="text-danger"></span>
+                </div>
+                <div class="form-group my-3">
+                    <input asp-for=Comment.Email name="email" placeholder="پست الکترونیک" id="txtEmail" class="form-control" />
+                    <span asp-validation-for="Comment.Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <textarea id="editor" asp-for=Comment.CommentText name="commentText" placeholder="متن پیام" class="form-control ck-editor__editable"></textarea>
+                    <span asp-validation-for="Comment.CommentText" class="text-danger"></span>
+                </div>
+
+                <div class="position-absolute d-inline-flex end-0">
+                    <input type="submit" class="rounded btn btn-sm contact1-form-btn" value="ثبت دیدگاه شما" />
+                </div>
+            </form>
+        </div>
+        <!-- End Comment-Form -->
+        <!-- Start Comments -->
+        <div class="section_tittle text-center my-5">
+            <h5>نظر کاربران</h5>
+        </div>
+        <div class="row m-4">
+            @if (Model.Comments.Any())
+            {
+                @foreach (var item in Model.Comments)
+                {
+                    <div class="comment-box my-3 p-3 rounded bg-white">
+                        <div class="comment-title d-sm-flex align-items-center py-3">
+                            <small class="comment-title-name"> @item.Name </small>
+                            <small class="ms-5"> ارسال شده در </small>
+                            <small class="mx-3">|</small>
+                            <small> @item.CreateDate.ToShamsi() </small>
+                        </div>
+                        <div class="comment-text float-start px-2 align-items-center">
+                            <p> @Html.Raw(@item.CommentText) </p>
+
+                        </div>
+                        <div class="float-end align-items-center">
+                            <img src="Assets/Img/Icons/CommaForComment.svg" class="comment-comma-img" />
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="alert alert-warning px-2">
+                    نظری برای این خبر ثبت نشده است.
+                </div>
+            }
+
+        </div>
+    </div>
+    <!-- End Comments -->
+</div>
+
+<!--Start Col-3 -->
+<div class="col-12 d-none col-lg-3 d-lg-block ">
+    <!-- Start Color-Palet -->
+    @{
+        await Html.RenderPartialAsync("_ColorPalet");
+    }
+    <!-- End Color-Palet -->
+    <!-- Start Ad -->
+    @await Component.InvokeAsync("AdsComponent")
+    <!-- End Ad -->
+    <!-- LastNews -->
+    <div class="my-3">
+        <!-- Start LastNews -->
+        @await Component.InvokeAsync("LastNewsComponent")
+        <!-- End LastNews -->
+    </div>
+    <!-- End LastNews -->
+    <!-- Start Links -->
+    @await Component.InvokeAsync("LinkComponent")
+    <!-- End Links -->
+</div>
+<!--End Col-3 -->
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script src="/Assets/ckeditor5-build-classic/ckeditor.js"></script>
+    <script src="/Assets/ckeditor5-build-classic/translations/fa.js"></script>
+
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#editor'), {
+                language: 'fa',
+                placeholder: 'اینجا بنویسید...'
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+
+    @await Component.InvokeAsync("Notyf")
+
+    <!--Print Report-->
+    <script>
+        function printdiv() {
+            var printContents = document.getElementById('print_this').innerHTML;
+            var originalContents = document.body.innerHTML;
+            document.body.innerHTML = printContents;
+            window.print();
+            document.body.innerHTML = originalContents;
+        }
+    </script>
+}

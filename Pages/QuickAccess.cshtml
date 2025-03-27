@@ -1,0 +1,24 @@
+﻿@page
+@model GharchNews.Pages.QuickAccessModel
+@{
+}
+
+<link href="~/assets/css/honeycombstyle.css" rel="stylesheet" />
+
+<div class="col-12 col-lg-9 mb-5">
+    <div class=" bg-light-subtle border-style rounded text-center p-5">
+        <h3 class="mb-3"> دسته های خبری </h3>
+        <ul id="hexGrid" style="padding-top: 20px; padding-bottom: 75px;">
+            @foreach(var item in Model.ReportGroups)
+            {
+                <li class="hex">
+                    <a asp-page="./Group" asp-route-Group="@item.GroupName" class="hexIn">
+                        <img src="~/Img/ReportGroupImages/@item.GroupImage" alt="" />
+                        <h1 style="color: white"> @item.GroupName </h1>
+                        <p>  </p>
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

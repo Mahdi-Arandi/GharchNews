@@ -1,0 +1,86 @@
+﻿@page
+@model GharchNews.Pages.Admin.User.ProfileModel
+@{
+    ViewData["Title"] = "ویرایش";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+
+<h4 class="text-success"> ویرایش کاربر </h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form enctype="multipart/form-data" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <input type="hidden" asp-for="MyUser.Id" />
+            <input type="hidden" asp-for="MyUser.InRole" />
+            <input type="hidden" asp-for="MyUser.UserName" />
+            <input type="hidden" asp-for="MyUser.ProfileImage" />
+
+            <div class="form-floating mb-3">
+                <label asp-for="MyUser.Name">نام </label>
+                <input asp-for="MyUser.Name" class="form-control" placeholder="نام را وارد کنید" />
+                <span asp-validation-for="MyUser.Name" class="text-danger"></span> <br />
+            </div>
+            <div class="form-floating mb-3">
+                <label asp-for="MyUser.Family">نام خانوادگی</label>
+                <input asp-for="MyUser.Family" class="form-control" placeholder="نام خانوادگی را وارد کنید" />
+                <span asp-validation-for="MyUser.Family" class="text-danger"></span> <br />
+            </div>
+            <div class="form-floating mb-3">
+                <label asp-for="MyUser.PhoneNumber">شماره تماس</label>
+                <input asp-for="MyUser.PhoneNumber" class="form-control" placeholder="شماره تماس را وارد کنید" />
+                <span asp-validation-for="MyUser.PhoneNumber" class="text-danger"></span> <br />
+            </div>
+            <div class="form-floating mb-3">
+                <label asp-for="MyUser.ProfileImage">تصویر پروفایل</label>
+                <input asp-for="imgUp" type="file" name="imgUp" id="imgUpload" /> <hr />
+                @if (Model.MyUser.ProfileImage == null)
+                {
+                    <img id="imgpreview" src="/Img/ProfileImages/پروفایل.jpg" style="max-width:320px" class="img-thumbnail" /> <br />
+                }
+                else
+                {
+                    <img id="imgpreview" src="/Img/ProfileImages/@Model.MyUser.ProfileImage" style="max-width:320px" class="img-thumbnail" /> <br />
+                }
+                <span asp-validation-for="MyUser.ProfileImage" class="text-danger"></span> <br />
+            </div>
+            <div class="form-floating mb-3">
+                <a asp-page-handler="DeleteProfile" asp-route-id="@Model.MyUser.Id"> <i class="fa fa-trash-o" style="font-size:18; color:red"></i> </a>
+            </div>
+            <hr />
+            <div class="form-floating mb-3">
+                <label asp-for="MyUser.UserName">نام کاربری</label>
+                <input asp-for="MyUser.UserName" class="form-control" disabled/>
+            </div>
+            <hr />
+            <button type="submit" class="w-100 btn btn btn-warning">ویرایش</button>
+            <a asp-page="../index" class="w-100 btn btn-default"> انصراف </a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#imgpreview').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#imgUpload").change(function () {
+            readURL(this);
+        });
+    </script>
+}

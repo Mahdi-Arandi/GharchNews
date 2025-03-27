@@ -1,0 +1,21 @@
+﻿@model IEnumerable<GharchNews.Models.Links>
+@using GharchNews.Utilities
+
+
+<div class="row ">
+    <div class="bg-body-secondary rounded shadow position-relative" style="border-top: 10px solid skyblue;">
+        <div class="position-absolute bg-body-secondary px-3 pt-2" style="color:steelblue; border-top: 2px solid #e2e3e7; border-right:2px solid #e2e3e7; top:-18px; border-left:2px solid #e2e3e7; top:-18px; border-top-left-radius:3px; border-top-right-radius:3px;">
+            لینکستان
+        </div>
+        <ul class="list-unstyled mt-4" style="display:flex; flex-wrap:wrap">
+            @foreach(var item in Model)
+            {
+                <li class="d-inline-block mb-1" style="margin: 2px; padding:0; flex:auto; text-align:center; vertical-align:middle; border:1px solid gray">
+                    <a class="text-decoration-none" style="color:gray; padding:2px; font-size: .6rem;" href="@item.LinkAddress" target="_blank">
+                        @item.LinkName
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

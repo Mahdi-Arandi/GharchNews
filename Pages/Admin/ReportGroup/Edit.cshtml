@@ -1,0 +1,57 @@
+﻿@page
+@model GharchNews.Pages.Admin.ReportGroup.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ReportGroup.GroupId" />
+            <input type="hidden" asp-for="ReportGroup.GroupImage" />
+            <div class="form-group">
+                <label asp-for="ReportGroup.GroupName" class="control-label"></label>
+                <input asp-for="ReportGroup.GroupName" class="form-control" />
+                <span asp-validation-for="ReportGroup.GroupName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReportGroup.GroupImage" class="control-label"></label>
+                <input asp-for="imgUp" id="imgUpload" />
+                <img id="imgpreview" src="/Img/ReportGroupImages/@Model.ReportGroup.GroupImage" style="max-width:320px" class="img-thumbnail" /> <br />
+                <span asp-validation-for="ReportGroup.GroupImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="ویرایش" class="btn btn-warning" />
+                <a asp-page="./Index" class="btn btn-default"> بازگشت به لیست </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#imgpreview').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#imgUpload").change(function () {
+            readURL(this);
+        });
+    </script>
+
+}

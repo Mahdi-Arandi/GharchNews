@@ -1,0 +1,84 @@
+﻿@page
+@model GharchNews.Pages.Admin.Ads.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Ads.AdsName" class="control-label"></label>
+                <input asp-for="Ads.AdsName" class="form-control" />
+                <span asp-validation-for="Ads.AdsName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ads.Email" class="control-label"></label>
+                <input asp-for="Ads.Email" class="form-control" />
+                <span asp-validation-for="Ads.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ads.PhoneNumber" class="control-label"></label>
+                <input asp-for="Ads.PhoneNumber" class="form-control" />
+                <span asp-validation-for="Ads.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ads.ExpireDate" class="control-label"></label>
+                <input asp-for="Ads.ExpireDate" class="form-control" dir="ltr" type="text" onclick="Mh1PersianDatePicker.Show(this,'@DateTime.Now.ToString("yyyy/MM/dd")')" />
+                <span asp-validation-for="Ads.ExpireDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ads.Subject" class="control-label"></label>
+                <input asp-for="Ads.Subject" class="form-control" />
+                <span asp-validation-for="Ads.Subject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ads.Price" class="control-label"></label>
+                <input asp-for="Ads.Price" class="form-control" />
+                <span asp-validation-for="Ads.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ads.Image" class="control-label"></label>
+                <input asp-for="imgUp" type="file" name="imgUp" id="imgUpload" /> <hr />
+                <img id="imgpreview" style="max-width:320px" /> <br />
+                <span asp-validation-for="Ads.Image" class="text-danger"></span> 
+            </div>
+            <div class="form-group">
+                <input type="submit" value="افزودن" class="btn btn-primary" />
+                <a asp-page="Index" class="btn btn-default">بازگشت به لیست</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#imgpreview').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#imgUpload").change(function () {
+            readURL(this);
+        });
+    </script>
+}
+
+<link href="~/assets/calendar/mh1persiandatepicker.css" rel="stylesheet" />
+<script src="~/assets/calendar/mh1persiandatepicker.js"></script>

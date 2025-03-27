@@ -1,0 +1,34 @@
+﻿@model GharchNews.Models.ViewModels.ImageAndReportGroupVM
+@using GharchNews.Utilities
+
+
+<nav class="steel-man am-container ">
+    <div class="position-relative">
+        <h3 class=""> گالری تصاویر  <a asp-page="./index"> <img class="" src="Assets/Img/Logo/GharchNews.png" style="width: 80px; height: 30px; float: left;"> </a> </h3>
+    </div>
+    <div class="align-items-center mx-2">
+        <i class="fa fa-folder-open text-white-50" style="font-size:.7rem;"></i>
+        <a asp-page="Gallery" class="text-white text-decoration-none">مشاهده همه گالری ها</a>
+    </div>
+    <ul class="grid-items">
+        @foreach(var item in Model.Images)
+        {
+            <li> <img src="~/Img/GalleryImages/@ViewBag.galleryName/@item.ImageName" alt="@item.Gallery.GalleryName" /> </li>
+        }
+    </ul>
+    <h3>لینک های اصلی منو </h3>
+    <ul class="list-item">
+        <!--//sub-items-->
+        <li> <a asp-page="QuickAccess"> <span class="item-icon"> <img src="Assets/Img/Icons/QuickAccess.png" class="circle" /> </span> دسترسی سریع </a> </li>
+        <li> <a asp-page="Archive"> <span class="item-icon"> <img src="Assets/Img/Icons/Archive.png" /> </span> آرشیو اخبار </a> </li>
+        <li> <a asp-page="MostViewed"> <span class="item-icon"> <img src="Assets/Img/Icons/TopNews.jpg" class="rounded" /> </span> اخبار پربازدید </a> </li>
+        <li> <a asp-page="ContactUs"> <span class="item-icon"> <img src="Assets/Img/Icons/ContactUs.jpg" /> </span> ارتباط با ما  </a> </li>
+    </ul>
+    <h3>گروه های خبری</h3>
+    <ul class="cloud-tags">
+        @foreach(var item in Model.ReportGroups)
+        {
+            <li><a asp-page="./Group" asp-route-Group="@item"> @item </a> </li>
+        }
+    </ul>
+</nav>

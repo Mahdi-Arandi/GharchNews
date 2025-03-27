@@ -1,0 +1,108 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!-- Start Col-9 -->
+<div class=" col-12 col-lg-9">
+    <!-- Start Hashtag -->
+    @await Component.InvokeAsync("HashtagComponent")
+    <!-- End Hashtag -->
+    <!-- Strat Hot News -->
+    <div class="container shadow bg-body-tertiary rounded mb-4">
+        <div class="row">
+            @await Component.InvokeAsync("HotNewsFirstComponent")
+            @await Component.InvokeAsync("HotNewsComponent")
+        </div>
+    </div>
+    <!-- End Hot News -->
+    <!-- Start SpecialReports -->
+    <div class="Special-plusfirst">
+        @await Component.InvokeAsync("SpecialFirstReportsComponent")
+        @await Component.InvokeAsync("SpecialReportsComponent")
+    </div>
+    <!-- End SpecialReports -->
+    <!-- Start TopReports -->
+    @await Component.InvokeAsync("TopReportsComponent")
+    <!-- End TopReports -->
+    <!-- Start Sport -->
+    @await Component.InvokeAsync("SportReportsComponent")
+    <!-- End Sport -->
+    <!-- Start Economic -->
+    @await Component.InvokeAsync("EconomicReportsComponent")
+    <!-- End Economic -->
+    <!-- Start Health -->
+    @await Component.InvokeAsync("HealthReportsComponent")
+    <!-- End Health -->
+    <!-- Start Multi Media -->
+    @await Component.InvokeAsync("MultimediaSliderComponent")
+    <!-- End Multi Media -->
+    <!-- Start NavTabs -->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item  navtab-index" role="presentation">
+            <button class="nav-link active" id="Social-tab" data-bs-toggle="tab" data-bs-target="#Social-tab-pane" type="button" role="tab" aria-controls="Social-tab-pane" aria-selected="true"> اجتماعی </button>
+        </li>
+        <li class="nav-item navtab-index" role="presentation">
+            <button class="nav-link" id="Cultural-tab" data-bs-toggle="tab" data-bs-target="#Cultural-tab-pane" type="button" role="tab" aria-controls="Cultural-tab-pane" aria-selected="false"> فرهنگی </button>
+        </li>
+        <li class="nav-item navtab-index" role="presentation">
+            <button class="nav-link " id="Political-tab" data-bs-toggle="tab" data-bs-target="#Political-tab-pane" type="button" role="tab" aria-controls="Political-tab-pane" aria-selected="false"> سیاسی </button>
+        </li>
+        <li class="nav-item navtab-index" role="presentation">
+            <button class="nav-link" id="Artistic-tab" data-bs-toggle="tab" data-bs-target="#Artistic-tab-pane" type="button" role="tab" aria-controls="Artistic-tab-pane" aria-selected="false"> هنری </button>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <!-- Start اجتماعی -->
+        @await Component.InvokeAsync("NavTabSocialReportsComponent")
+        <!-- End اجتماعی -->
+        <!-- Start فرهنگی -->
+        @await Component.InvokeAsync("NavTabCulturalReportsComponent")
+        <!-- End فرهنگی -->
+        <!-- Start سیاسی -->
+        @await Component.InvokeAsync("NavTabPoliticalReportsComponent")
+        <!-- End سیاسی -->
+        <!-- start هنری -->
+        @await Component.InvokeAsync("NavTabArtisticReportsComponent")
+        <!-- End هنری -->
+    </div>
+    <!-- End NavTabs -->
+
+
+    <div class="col-12 d-lg-none row my-5">
+        <!-- Start LastNews Hide -->
+        @await Component.InvokeAsync("LastNewsComponent")
+        <!-- End LastNewsHide -->
+    </div>
+
+    <!-- Start Ad Hide -->
+    <div class="col-12 d-lg-none row mb-5">
+        @await Component.InvokeAsync("AdsComponent")
+    </div>
+    <!-- End Ad Hide -->
+
+</div>
+<!--End Col-9 -->
+<!--Start Col-3 -->
+<div class="col-12 d-none col-lg-3 d-lg-block ">
+    <!-- Start Color-Palet -->
+    @{
+        await Html.RenderPartialAsync("_ColorPalet");
+    }
+    <!-- End Color-Palet -->
+    <!-- Start Ad -->
+    @await Component.InvokeAsync("AdsComponent")
+    <!-- End Ad -->
+    <!-- LastNews -->
+    <div class="my-3">
+        <!-- Start LastNews -->
+        @await Component.InvokeAsync("LastNewsComponent")
+        <!-- End LastNews -->
+    </div>
+    <!-- End LastNews -->
+    <!-- Start Links -->
+    @await Component.InvokeAsync("LinkComponent")
+    <!-- End Links -->
+</div>
+<!--End Col-3 -->

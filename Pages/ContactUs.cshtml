@@ -1,0 +1,69 @@
+﻿@page
+@model GharchNews.Pages.ContactUsModel
+@{
+}
+
+
+<div class="col-12 col-lg-9 mb-5">
+    <div class=" bg-light-subtle border-style rounded p-3">
+
+
+        <div class="contact1">
+            <div class="container-contact1">
+                <div class="contact1-pic js-tilt" data-tilt>
+                    <img src="Assets/ContactUs/ContactUs-img1.png" alt="IMG">
+                </div>
+                <form method="post" class="validate-form">
+                    <span class="contact1-form-title">ارسال پیام</span>
+                    <div class="wrap-input1 validate-input" data-validate="لطفا نام خود را وارد کنید!">
+                        <input asp-for="ContactUs.Name" class="input1" type="text" name="name" placeholder="نام شما">
+                        <span class="shadow-input1"></span>
+                    </div>
+                    <div class="wrap-input1 validate-input" data-validate="لطفا ایمیل خود را وارد کنید!">
+                        <input asp-for="ContactUs.Email" class="input1" type="text" name="email" placeholder="پست الکترونیک">
+                        <span class="shadow-input1"></span>
+                    </div>
+                    <div class="wrap-input1 validate-input" data-validate="لطفا شماره تماس خود را وارد کنید!">
+                        <input asp-for="ContactUs.PhoneNumber" class="input1" type="text" name="PhoneNumber" placeholder="شماره تماس">
+                        <span class="shadow-input1"></span>
+                    </div>
+                    <div class="wrap-input1 validate-input" data-validate="لطفا موضوع پیام را وارد کنید!">
+                        <input asp-for="ContactUs.Subject" class="input1" type="text" name="subject" placeholder="موضوع پیام">
+                        <span class="shadow-input1"></span>
+                    </div>
+                    <div class="wrap-input1 validate-input" data-validate="لطفا پیام خود را وارد کنید!">
+                        <textarea asp-for="ContactUs.Message" class="input1" name="message" placeholder="متن پیام"></textarea>
+                        <span class="shadow-input1"></span>
+                    </div>
+                    <div class="container-contact1-form-btn">
+                        <button class="contact1-form-btn">
+                            <span>
+                                ارسال پیام
+                                <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="d-block">
+                <p class="Body-Address"> راه های ارتباطی ما: </p>
+
+                <p class="Address">
+                    تلفن گویا :   @Model.Address.PhoneNumber
+                    نمابر:  @Model.Address.Fax
+                    موبایل:  @Model.Address.Mobile
+                    نشانی: @Model.Address.Office
+                    کد پستی: @Model.Address.PostalCode
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+@section Scripts {
+    <link href="~/assets/contactus/contactus-style.css" rel="stylesheet" />
+    <script src="~/assets/contactus/contactus-scripts.js"></script>
+}

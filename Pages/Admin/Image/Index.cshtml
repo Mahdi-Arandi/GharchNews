@@ -1,0 +1,141 @@
+﻿@page
+@model GharchNews.Pages.Admin.Image.IndexModel
+@using GharchNews.Roles
+@using GharchNews.Utilities
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<hr />
+<p>
+    <a asp-page="Create" class="btn btn-success"> افزودن عکس </a>
+</p>
+
+
+@if (ViewBag.CurrentGallery != null)
+{
+    <a asp-page="../Gallery/Index" class="btn btn-primary"> بازگشت به گالری ها <i class="fa fa-list" style="font-size:14px; color:black"></i> </a>
+}
+<br />
+<hr />
+
+<table id="myDataTable" class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Images[0].ImageName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Images[0].CreateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Images[0].Gallery)
+            </th>
+            @if (User.IsInRole(SD.Admin))
+            {
+                <th>
+                    @Html.DisplayNameFor(model => model.Images[0].Id)
+                </th>
+            }
+            <th>
+                @Html.DisplayNameFor(model => model.Images[0].IsSuccess)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Images)
+        {
+            <tr>
+                <td>
+                    @if (ViewBag.CurrentGallery == null)
+                    {
+                        @foreach (var gallery in ViewBag.Galleries)
+                        {
+                            @if (item.Gallery.GalleryName == gallery)
+                            {
+                                <img src="/Img/GalleryImages/@gallery/@Html.DisplayFor(modelItem => item.ImageName)" style="max-width:60px" class="img-thumbnail" />
+                            }
+                        }
+                    }
+                    else
+                    {
+                        <img src="/Img/GalleryImages/@ViewBag.CurrentGallery/@Html.DisplayFor(modelItem => item.ImageName)" style="max-width:60px" class="img-thumbnail" />
+                    }
+
+                </td>
+                <td>
+                    @item.CreateDate.ToShamsi()
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gallery.GalleryName)
+                </td>
+                @if (User.IsInRole(SD.Admin))
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Users.Name)
+                        @Html.DisplayFor(modelItem => item.Users.Family)
+                    </td>
+                }
+
+                <td>
+                @if (User.IsInRole(SD.Admin))
+                {
+                        @if (item.IsSuccess == false)
+                        {
+                            <a asp-page-handler="IsSuccess" asp-route-id="@item.ImageId" class="btn btn-success"> انتشار عکس </a>
+                        }
+                        else
+                        {
+                            <a asp-page-handler="IsSuccess" asp-route-id="@item.ImageId" class="btn btn-warning"> منتشر شده </a>
+                        }
+                }
+                else
+                {
+                        @if (item.IsSuccess == true)
+                        {
+                            <a disabled class="btn btn-success"> منتشر شده </a>
+                        }
+                        else
+                        {
+                            <a disabled class="btn btn-warning"> در صف انتشار </a>
+                        }
+                }
+                </td>
+
+                <td>
+                    @if (User.IsInRole(SD.Admin))
+                    {
+                        <a asp-page="Edit" asp-route-id="@item.ImageId" asp-route-ReturnUrl="@ViewBag.CurrentGallery"><i class="fa fa-edit" style="color:darkorange;font-size:20px"></i></a>
+                        <a asp-route-id="@item.ImageId" asp-page-handler="Delete" asp-route-ReturnUrl="@ViewBag.CurrentGallery"><i class="fa fa-trash" style="color:red;font-size:20px"></i></a>
+                    }
+                    else if (User.IsInRole(SD.User) && item.IsSuccess == false)
+                    {
+                        <a asp-page="Edit" asp-route-id="@item.ImageId" asp-route-ReturnUrl="@ViewBag.CurrentGallery"><i class="fa fa-edit" style="color:darkorange;font-size:20px"></i></a>
+                        <a asp-route-id="@item.ImageId" asp-page-handler="Delete" asp-route-ReturnUrl="@ViewBag.CurrentGallery"><i class="fa fa-trash" style="color:red;font-size:20px"></i></a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+
+@if (ViewBag.CurrentGallery != null)
+{
+    <a asp-page="../Image/Index" class="btn btn-warning"> نمایش تمام عکس ها </a>
+}
+
+
+@section Scripts {
+
+    <link href="~/dist/datetable/datatable.min.css" rel="stylesheet" />
+    <script src="~/dist/datetable/datatable.js"></script>
+
+    <script>
+        let table = new DataTable('#myDataTable');
+    </script>
+}

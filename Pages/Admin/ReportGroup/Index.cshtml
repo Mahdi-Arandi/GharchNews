@@ -1,0 +1,42 @@
+﻿@page
+@model GharchNews.Pages.Admin.ReportGroup.IndexModel
+@{
+    Layout = "_AdminLayout";
+}
+
+<hr />
+<p>
+    <a asp-page="Create" class="btn btn-success"> افزودن دسته خبری </a>
+</p>
+<hr />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ReportGroup[0].GroupImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReportGroup[0].GroupName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ReportGroup)
+        {
+            <tr>
+                <td>
+                    <img src="/Img/ReportGroupImages/@Html.DisplayFor(modelItem => item.GroupImage)" style="max-width:100px" class="img-thumbnail" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GroupName)
+                </td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@item.GroupId" class="btn btn-warning"> ویرایش </a>
+                    <a asp-page="Details" asp-route-id="@item.GroupId" class="btn btn-primary"> جزئیات </a>
+                    <a asp-page="Delete" asp-route-id="@item.GroupId" class="btn btn-danger"> حذف </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

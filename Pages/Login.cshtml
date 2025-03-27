@@ -1,0 +1,73 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "صفحه ورود";
+    Layout = "~/Pages/Shared/_DefaultLayout.cshtml";
+}
+
+<div class="limiter">
+    <div class="container-login100">
+        <div class="wrap-login100">
+
+            <!-- form -->
+            <form id="account" method="post" class="login100-form validate-form">
+
+
+                <!-- logo of form -->
+                <span class="login100-form-title p-b-48">
+                    <img class="logo" src="/Assets/Img/Logo/GharchNews.png" width="250">
+                </span>
+                <!-- / logo of form -->
+
+                <span class="login100-form-title p-b-26 text-secondary">خوش آمدید</span>
+                <span class="login100-form-title p-b-26 text-secondary">ورود به ناحیه کاربری</span>
+
+                <!-- please enter your email -->
+                <div class="wrap-input100 validate-input" data-validate="نام کاربری وارد شده صحیح نمی باشد!">
+                    <input asp-for="Input.UserName" class="input100" type="text">
+                    <span class="focus-input100" data-placeholder="نام کاربری"></span>
+                </div>
+                <!--  / please enter your email -->
+                <!-- please enter your username -->
+                <div class="wrap-input100 validate-input" data-validate="لطفا رمز عبور خود را وارد کنید!">
+                    <span class="btn-show-pass">
+                        <i class="zmdi zmdi-eye"></i>
+                    </span>
+                    <input asp-for="Input.Password" class="input100" type="password">
+                    <span class="focus-input100" data-placeholder="رمز عبور"></span>
+                </div>
+                <!-- /  please enter your username -->
+                <!-- login button -->
+                <div class="container-login100-form-btn">
+                    <div class="wrap-login100-form-btn">
+                        <div class="login100-form-bgbtn"></div>
+                        <button id="login-submit" type="submit" class="login100-form-btn"> ورود به سایت </button>
+                    </div>
+                </div>
+
+
+                <!-- / login button -->
+                <!-- register-->
+                @*                 <div class="text-center p-t-115">
+                <span class="txt1">
+                هنوز ثبت نام نکرده اید؟!
+                </span>
+                <a class="txt2 text-danger" href="#">ثبت نام کنید</a>
+                </div> *@
+                <!-- / register-->
+                <br />
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+            </form>
+            <!-- / form -->
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

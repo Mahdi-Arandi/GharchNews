@@ -1,0 +1,14 @@
+﻿@model IEnumerable<GharchNews.Models.Gallery>
+@using GharchNews.Utilities
+
+
+<div class="row mb-5">
+    <div class="bg-body-secondary shadow">
+        <ul class="list-unstyled my-2 ">
+            @foreach(var item in Model)
+            {
+                <li><a asp-page="GalleryImages" asp-route-id="@item.GalleryId" asp-route-GalleryName="@item.GalleryName" class="text-decoration-none text-black"><img style="width:50px; height:30px;" src="~/Assets/Img/Icons/Folder.png"> گالری تصاویر @item.GalleryName </a></li>
+            }
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+﻿@page
+@model GharchNews.Pages.Admin.Comment.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<h5 class="alert alert-danger"> آیا از حذف این نظر مطمئن هستید؟ </h5>
+
+<hr />
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Comment.Name)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Comment.Name)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Comment.Email)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Comment.Email)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Comment.CommentText)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Comment.CommentText)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Comment.IsSuccess)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Comment.IsSuccess)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Comment.CreateDate)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Comment.CreateDate)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Comment.Report)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Comment.Report.title)
+    </dd>
+</dl>
+
+<form method="post">
+    <input type="hidden" asp-for="Comment.CommentId" />
+    <input type="submit" value="حذف" class="btn btn-danger" />
+    <a asp-page="@ViewBag.returnUrl" class="btn btn-default"> بازگشت به لیست </a>
+</form>
+
